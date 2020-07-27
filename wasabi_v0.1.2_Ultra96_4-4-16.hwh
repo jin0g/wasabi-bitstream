@@ -5984,7 +5984,7 @@
       <PARAMETERS>
         <PARAMETER NAME="C_S_AXI_AXILITES_ADDR_WIDTH" VALUE="4"/>
         <PARAMETER NAME="C_S_AXI_AXILITES_DATA_WIDTH" VALUE="32"/>
-        <PARAMETER NAME="Component_Name" VALUE="design_1_wasabi_0"/>
+        <PARAMETER NAME="Component_Name" VALUE="design_1_wasabi"/>
         <PARAMETER NAME="clk_period" VALUE="3"/>
         <PARAMETER NAME="machine" VALUE="64"/>
         <PARAMETER NAME="combinational" VALUE="0"/>
