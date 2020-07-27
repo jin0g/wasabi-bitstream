@@ -1060,23 +1060,23 @@
         <PORT DIR="O" NAME="mm2s_prmry_reset_out_n" POLARITY="ACTIVE_LOW" SIGIS="rst"/>
         <PORT DIR="O" LEFT="127" NAME="m_axis_mm2s_tdata" RIGHT="0" SIGIS="undef" SIGNAME="activations_m_axis_mm2s_tdata">
           <CONNECTIONS>
-            <CONNECTION INSTANCE="wasabi_0" PORT="src_stream_TDATA"/>
+            <CONNECTION INSTANCE="wasabi" PORT="src_stream_TDATA"/>
           </CONNECTIONS>
         </PORT>
         <PORT DIR="O" LEFT="15" NAME="m_axis_mm2s_tkeep" RIGHT="0" SIGIS="undef"/>
         <PORT DIR="O" NAME="m_axis_mm2s_tvalid" SIGIS="undef" SIGNAME="activations_m_axis_mm2s_tvalid">
           <CONNECTIONS>
-            <CONNECTION INSTANCE="wasabi_0" PORT="src_stream_TVALID"/>
+            <CONNECTION INSTANCE="wasabi" PORT="src_stream_TVALID"/>
           </CONNECTIONS>
         </PORT>
         <PORT DIR="I" NAME="m_axis_mm2s_tready" SIGIS="undef" SIGNAME="activations_m_axis_mm2s_tready">
           <CONNECTIONS>
-            <CONNECTION INSTANCE="wasabi_0" PORT="src_stream_TREADY"/>
+            <CONNECTION INSTANCE="wasabi" PORT="src_stream_TREADY"/>
           </CONNECTIONS>
         </PORT>
         <PORT DIR="O" NAME="m_axis_mm2s_tlast" SIGIS="undef" SIGNAME="activations_m_axis_mm2s_tlast">
           <CONNECTIONS>
-            <CONNECTION INSTANCE="wasabi_0" PORT="src_stream_TLAST"/>
+            <CONNECTION INSTANCE="wasabi" PORT="src_stream_TLAST"/>
           </CONNECTIONS>
         </PORT>
         <PORT DIR="O" LEFT="31" NAME="m_axi_s2mm_awaddr" RIGHT="0" SIGIS="undef" SIGNAME="activations_m_axi_s2mm_awaddr">
@@ -1162,23 +1162,23 @@
         <PORT DIR="O" NAME="s2mm_prmry_reset_out_n" POLARITY="ACTIVE_LOW" SIGIS="rst"/>
         <PORT DIR="I" LEFT="127" NAME="s_axis_s2mm_tdata" RIGHT="0" SIGIS="undef" SIGNAME="activations_s_axis_s2mm_tdata">
           <CONNECTIONS>
-            <CONNECTION INSTANCE="wasabi_0" PORT="dst_stream_TDATA"/>
+            <CONNECTION INSTANCE="wasabi" PORT="dst_stream_TDATA"/>
           </CONNECTIONS>
         </PORT>
         <PORT DIR="I" LEFT="15" NAME="s_axis_s2mm_tkeep" RIGHT="0" SIGIS="undef"/>
         <PORT DIR="I" NAME="s_axis_s2mm_tvalid" SIGIS="undef" SIGNAME="activations_s_axis_s2mm_tvalid">
           <CONNECTIONS>
-            <CONNECTION INSTANCE="wasabi_0" PORT="dst_stream_TVALID"/>
+            <CONNECTION INSTANCE="wasabi" PORT="dst_stream_TVALID"/>
           </CONNECTIONS>
         </PORT>
         <PORT DIR="O" NAME="s_axis_s2mm_tready" SIGIS="undef" SIGNAME="activations_s_axis_s2mm_tready">
           <CONNECTIONS>
-            <CONNECTION INSTANCE="wasabi_0" PORT="dst_stream_TREADY"/>
+            <CONNECTION INSTANCE="wasabi" PORT="dst_stream_TREADY"/>
           </CONNECTIONS>
         </PORT>
         <PORT DIR="I" NAME="s_axis_s2mm_tlast" SIGIS="undef" SIGNAME="activations_s_axis_s2mm_tlast">
           <CONNECTIONS>
-            <CONNECTION INSTANCE="wasabi_0" PORT="dst_stream_TLAST"/>
+            <CONNECTION INSTANCE="wasabi" PORT="dst_stream_TLAST"/>
           </CONNECTIONS>
         </PORT>
         <PORT DIR="O" NAME="mm2s_introut" SENSITIVITY="LEVEL_HIGH" SIGIS="INTERRUPT"/>
@@ -1358,7 +1358,7 @@
             <PORTMAP LOGICAL="TVALID" PHYSICAL="m_axis_mm2s_tvalid"/>
           </PORTMAPS>
         </BUSINTERFACE>
-        <BUSINTERFACE BUSNAME="wasabi_0_dst_stream" NAME="S_AXIS_S2MM" TYPE="TARGET" VLNV="xilinx.com:interface:axis:1.0">
+        <BUSINTERFACE BUSNAME="wasabi_dst_stream" NAME="S_AXIS_S2MM" TYPE="TARGET" VLNV="xilinx.com:interface:axis:1.0">
           <PARAMETER NAME="TDATA_NUM_BYTES" VALUE="16"/>
           <PARAMETER NAME="TDEST_WIDTH" VALUE="0"/>
           <PARAMETER NAME="TID_WIDTH" VALUE="0"/>
@@ -1387,7 +1387,7 @@
       </MEMORYMAP>
       <PERIPHERALS>
         <PERIPHERAL INSTANCE="zynq_ultra_ps_e_0"/>
-        <PERIPHERAL INSTANCE="wasabi_0"/>
+        <PERIPHERAL INSTANCE="wasabi"/>
       </PERIPHERALS>
     </MODULE>
     <MODULE BD="design_1_axi_smc_0" BDTYPE="SBD" COREREVISION="13" DRIVERMODE="CORE" FULLNAME="/axi_smc" HWVERSION="1.0" INSTANCE="axi_smc" IPTYPE="BUS" IS_ENABLE="1" MODCLASS="BUS" MODTYPE="smartconnect" SIM_BD="design_1_axi_smc_0" VLNV="xilinx.com:ip:smartconnect:1.0">
@@ -3186,23 +3186,23 @@
         <PORT DIR="O" NAME="mm2s_prmry_reset_out_n" POLARITY="ACTIVE_LOW" SIGIS="rst"/>
         <PORT DIR="O" LEFT="255" NAME="m_axis_mm2s_tdata" RIGHT="0" SIGIS="undef" SIGNAME="instructions_m_axis_mm2s_tdata">
           <CONNECTIONS>
-            <CONNECTION INSTANCE="wasabi_0" PORT="instructions_TDATA"/>
+            <CONNECTION INSTANCE="wasabi" PORT="instructions_TDATA"/>
           </CONNECTIONS>
         </PORT>
         <PORT DIR="O" LEFT="31" NAME="m_axis_mm2s_tkeep" RIGHT="0" SIGIS="undef"/>
         <PORT DIR="O" NAME="m_axis_mm2s_tvalid" SIGIS="undef" SIGNAME="instructions_m_axis_mm2s_tvalid">
           <CONNECTIONS>
-            <CONNECTION INSTANCE="wasabi_0" PORT="instructions_TVALID"/>
+            <CONNECTION INSTANCE="wasabi" PORT="instructions_TVALID"/>
           </CONNECTIONS>
         </PORT>
         <PORT DIR="I" NAME="m_axis_mm2s_tready" SIGIS="undef" SIGNAME="instructions_m_axis_mm2s_tready">
           <CONNECTIONS>
-            <CONNECTION INSTANCE="wasabi_0" PORT="instructions_TREADY"/>
+            <CONNECTION INSTANCE="wasabi" PORT="instructions_TREADY"/>
           </CONNECTIONS>
         </PORT>
         <PORT DIR="O" NAME="m_axis_mm2s_tlast" SIGIS="undef" SIGNAME="instructions_m_axis_mm2s_tlast">
           <CONNECTIONS>
-            <CONNECTION INSTANCE="wasabi_0" PORT="instructions_TLAST"/>
+            <CONNECTION INSTANCE="wasabi" PORT="instructions_TLAST"/>
           </CONNECTIONS>
         </PORT>
         <PORT DIR="O" NAME="mm2s_introut" SENSITIVITY="LEVEL_HIGH" SIGIS="INTERRUPT"/>
@@ -3336,7 +3336,7 @@
       </MEMORYMAP>
       <PERIPHERALS>
         <PERIPHERAL INSTANCE="zynq_ultra_ps_e_0"/>
-        <PERIPHERAL INSTANCE="wasabi_0"/>
+        <PERIPHERAL INSTANCE="wasabi"/>
       </PERIPHERALS>
     </MODULE>
     <MODULE COREREVISION="22" FULLNAME="/ps8_0_axi_periph" HWVERSION="2.1" INSTANCE="ps8_0_axi_periph" IPTYPE="BUS" IS_ENABLE="1" MODCLASS="BUS" MODTYPE="axi_interconnect" VLNV="xilinx.com:ip:axi_interconnect:2.1">
@@ -4220,7 +4220,7 @@
         </PORT>
         <PORT DIR="O" LEFT="39" NAME="M03_AXI_awaddr" RIGHT="0" SIGIS="undef" SIGNAME="ps8_0_axi_periph_M03_AXI_awaddr">
           <CONNECTIONS>
-            <CONNECTION INSTANCE="wasabi_0" PORT="s_axi_AXILiteS_AWADDR"/>
+            <CONNECTION INSTANCE="wasabi" PORT="s_axi_AXILiteS_AWADDR"/>
           </CONNECTIONS>
         </PORT>
         <PORT DIR="O" NAME="M03_AXI_awlen" SIGIS="undef"/>
@@ -4233,53 +4233,53 @@
         <PORT DIR="O" NAME="M03_AXI_awqos" SIGIS="undef"/>
         <PORT DIR="O" LEFT="0" NAME="M03_AXI_awvalid" RIGHT="0" SIGIS="undef" SIGNAME="ps8_0_axi_periph_M03_AXI_awvalid">
           <CONNECTIONS>
-            <CONNECTION INSTANCE="wasabi_0" PORT="s_axi_AXILiteS_AWVALID"/>
+            <CONNECTION INSTANCE="wasabi" PORT="s_axi_AXILiteS_AWVALID"/>
           </CONNECTIONS>
         </PORT>
         <PORT DIR="I" LEFT="0" NAME="M03_AXI_awready" RIGHT="0" SIGIS="undef" SIGNAME="ps8_0_axi_periph_M03_AXI_awready">
           <CONNECTIONS>
-            <CONNECTION INSTANCE="wasabi_0" PORT="s_axi_AXILiteS_AWREADY"/>
+            <CONNECTION INSTANCE="wasabi" PORT="s_axi_AXILiteS_AWREADY"/>
           </CONNECTIONS>
         </PORT>
         <PORT DIR="O" LEFT="31" NAME="M03_AXI_wdata" RIGHT="0" SIGIS="undef" SIGNAME="ps8_0_axi_periph_M03_AXI_wdata">
           <CONNECTIONS>
-            <CONNECTION INSTANCE="wasabi_0" PORT="s_axi_AXILiteS_WDATA"/>
+            <CONNECTION INSTANCE="wasabi" PORT="s_axi_AXILiteS_WDATA"/>
           </CONNECTIONS>
         </PORT>
         <PORT DIR="O" LEFT="3" NAME="M03_AXI_wstrb" RIGHT="0" SIGIS="undef" SIGNAME="ps8_0_axi_periph_M03_AXI_wstrb">
           <CONNECTIONS>
-            <CONNECTION INSTANCE="wasabi_0" PORT="s_axi_AXILiteS_WSTRB"/>
+            <CONNECTION INSTANCE="wasabi" PORT="s_axi_AXILiteS_WSTRB"/>
           </CONNECTIONS>
         </PORT>
         <PORT DIR="O" NAME="M03_AXI_wlast" SIGIS="undef"/>
         <PORT DIR="O" LEFT="0" NAME="M03_AXI_wvalid" RIGHT="0" SIGIS="undef" SIGNAME="ps8_0_axi_periph_M03_AXI_wvalid">
           <CONNECTIONS>
-            <CONNECTION INSTANCE="wasabi_0" PORT="s_axi_AXILiteS_WVALID"/>
+            <CONNECTION INSTANCE="wasabi" PORT="s_axi_AXILiteS_WVALID"/>
           </CONNECTIONS>
         </PORT>
         <PORT DIR="I" LEFT="0" NAME="M03_AXI_wready" RIGHT="0" SIGIS="undef" SIGNAME="ps8_0_axi_periph_M03_AXI_wready">
           <CONNECTIONS>
-            <CONNECTION INSTANCE="wasabi_0" PORT="s_axi_AXILiteS_WREADY"/>
+            <CONNECTION INSTANCE="wasabi" PORT="s_axi_AXILiteS_WREADY"/>
           </CONNECTIONS>
         </PORT>
         <PORT DIR="I" LEFT="1" NAME="M03_AXI_bresp" RIGHT="0" SIGIS="undef" SIGNAME="ps8_0_axi_periph_M03_AXI_bresp">
           <CONNECTIONS>
-            <CONNECTION INSTANCE="wasabi_0" PORT="s_axi_AXILiteS_BRESP"/>
+            <CONNECTION INSTANCE="wasabi" PORT="s_axi_AXILiteS_BRESP"/>
           </CONNECTIONS>
         </PORT>
         <PORT DIR="I" LEFT="0" NAME="M03_AXI_bvalid" RIGHT="0" SIGIS="undef" SIGNAME="ps8_0_axi_periph_M03_AXI_bvalid">
           <CONNECTIONS>
-            <CONNECTION INSTANCE="wasabi_0" PORT="s_axi_AXILiteS_BVALID"/>
+            <CONNECTION INSTANCE="wasabi" PORT="s_axi_AXILiteS_BVALID"/>
           </CONNECTIONS>
         </PORT>
         <PORT DIR="O" LEFT="0" NAME="M03_AXI_bready" RIGHT="0" SIGIS="undef" SIGNAME="ps8_0_axi_periph_M03_AXI_bready">
           <CONNECTIONS>
-            <CONNECTION INSTANCE="wasabi_0" PORT="s_axi_AXILiteS_BREADY"/>
+            <CONNECTION INSTANCE="wasabi" PORT="s_axi_AXILiteS_BREADY"/>
           </CONNECTIONS>
         </PORT>
         <PORT DIR="O" LEFT="39" NAME="M03_AXI_araddr" RIGHT="0" SIGIS="undef" SIGNAME="ps8_0_axi_periph_M03_AXI_araddr">
           <CONNECTIONS>
-            <CONNECTION INSTANCE="wasabi_0" PORT="s_axi_AXILiteS_ARADDR"/>
+            <CONNECTION INSTANCE="wasabi" PORT="s_axi_AXILiteS_ARADDR"/>
           </CONNECTIONS>
         </PORT>
         <PORT DIR="O" NAME="M03_AXI_arlen" SIGIS="undef"/>
@@ -4292,33 +4292,33 @@
         <PORT DIR="O" NAME="M03_AXI_arqos" SIGIS="undef"/>
         <PORT DIR="O" LEFT="0" NAME="M03_AXI_arvalid" RIGHT="0" SIGIS="undef" SIGNAME="ps8_0_axi_periph_M03_AXI_arvalid">
           <CONNECTIONS>
-            <CONNECTION INSTANCE="wasabi_0" PORT="s_axi_AXILiteS_ARVALID"/>
+            <CONNECTION INSTANCE="wasabi" PORT="s_axi_AXILiteS_ARVALID"/>
           </CONNECTIONS>
         </PORT>
         <PORT DIR="I" LEFT="0" NAME="M03_AXI_arready" RIGHT="0" SIGIS="undef" SIGNAME="ps8_0_axi_periph_M03_AXI_arready">
           <CONNECTIONS>
-            <CONNECTION INSTANCE="wasabi_0" PORT="s_axi_AXILiteS_ARREADY"/>
+            <CONNECTION INSTANCE="wasabi" PORT="s_axi_AXILiteS_ARREADY"/>
           </CONNECTIONS>
         </PORT>
         <PORT DIR="I" LEFT="31" NAME="M03_AXI_rdata" RIGHT="0" SIGIS="undef" SIGNAME="ps8_0_axi_periph_M03_AXI_rdata">
           <CONNECTIONS>
-            <CONNECTION INSTANCE="wasabi_0" PORT="s_axi_AXILiteS_RDATA"/>
+            <CONNECTION INSTANCE="wasabi" PORT="s_axi_AXILiteS_RDATA"/>
           </CONNECTIONS>
         </PORT>
         <PORT DIR="I" LEFT="1" NAME="M03_AXI_rresp" RIGHT="0" SIGIS="undef" SIGNAME="ps8_0_axi_periph_M03_AXI_rresp">
           <CONNECTIONS>
-            <CONNECTION INSTANCE="wasabi_0" PORT="s_axi_AXILiteS_RRESP"/>
+            <CONNECTION INSTANCE="wasabi" PORT="s_axi_AXILiteS_RRESP"/>
           </CONNECTIONS>
         </PORT>
         <PORT DIR="I" NAME="M03_AXI_rlast" SIGIS="undef"/>
         <PORT DIR="I" LEFT="0" NAME="M03_AXI_rvalid" RIGHT="0" SIGIS="undef" SIGNAME="ps8_0_axi_periph_M03_AXI_rvalid">
           <CONNECTIONS>
-            <CONNECTION INSTANCE="wasabi_0" PORT="s_axi_AXILiteS_RVALID"/>
+            <CONNECTION INSTANCE="wasabi" PORT="s_axi_AXILiteS_RVALID"/>
           </CONNECTIONS>
         </PORT>
         <PORT DIR="O" LEFT="0" NAME="M03_AXI_rready" RIGHT="0" SIGIS="undef" SIGNAME="ps8_0_axi_periph_M03_AXI_rready">
           <CONNECTIONS>
-            <CONNECTION INSTANCE="wasabi_0" PORT="s_axi_AXILiteS_RREADY"/>
+            <CONNECTION INSTANCE="wasabi" PORT="s_axi_AXILiteS_RREADY"/>
           </CONNECTIONS>
         </PORT>
       </PORTS>
@@ -4575,7 +4575,7 @@
             <CONNECTION INSTANCE="ps8_0_axi_periph" PORT="M01_ARESETN"/>
             <CONNECTION INSTANCE="transactions" PORT="axi_resetn"/>
             <CONNECTION INSTANCE="ps8_0_axi_periph" PORT="M02_ARESETN"/>
-            <CONNECTION INSTANCE="wasabi_0" PORT="ap_rst_n"/>
+            <CONNECTION INSTANCE="wasabi" PORT="ap_rst_n"/>
             <CONNECTION INSTANCE="ps8_0_axi_periph" PORT="M03_ARESETN"/>
             <CONNECTION INSTANCE="axi_smc" PORT="aresetn"/>
           </CONNECTIONS>
@@ -5630,23 +5630,23 @@
         <PORT DIR="O" NAME="mm2s_prmry_reset_out_n" POLARITY="ACTIVE_LOW" SIGIS="rst"/>
         <PORT DIR="O" LEFT="255" NAME="m_axis_mm2s_tdata" RIGHT="0" SIGIS="undef" SIGNAME="transactions_m_axis_mm2s_tdata">
           <CONNECTIONS>
-            <CONNECTION INSTANCE="wasabi_0" PORT="transactions_TDATA"/>
+            <CONNECTION INSTANCE="wasabi" PORT="transactions_TDATA"/>
           </CONNECTIONS>
         </PORT>
         <PORT DIR="O" LEFT="31" NAME="m_axis_mm2s_tkeep" RIGHT="0" SIGIS="undef"/>
         <PORT DIR="O" NAME="m_axis_mm2s_tvalid" SIGIS="undef" SIGNAME="transactions_m_axis_mm2s_tvalid">
           <CONNECTIONS>
-            <CONNECTION INSTANCE="wasabi_0" PORT="transactions_TVALID"/>
+            <CONNECTION INSTANCE="wasabi" PORT="transactions_TVALID"/>
           </CONNECTIONS>
         </PORT>
         <PORT DIR="I" NAME="m_axis_mm2s_tready" SIGIS="undef" SIGNAME="transactions_m_axis_mm2s_tready">
           <CONNECTIONS>
-            <CONNECTION INSTANCE="wasabi_0" PORT="transactions_TREADY"/>
+            <CONNECTION INSTANCE="wasabi" PORT="transactions_TREADY"/>
           </CONNECTIONS>
         </PORT>
         <PORT DIR="O" NAME="m_axis_mm2s_tlast" SIGIS="undef" SIGNAME="transactions_m_axis_mm2s_tlast">
           <CONNECTIONS>
-            <CONNECTION INSTANCE="wasabi_0" PORT="transactions_TLAST"/>
+            <CONNECTION INSTANCE="wasabi" PORT="transactions_TLAST"/>
           </CONNECTIONS>
         </PORT>
         <PORT DIR="O" NAME="mm2s_introut" SENSITIVITY="LEVEL_HIGH" SIGIS="INTERRUPT"/>
@@ -5780,10 +5780,10 @@
       </MEMORYMAP>
       <PERIPHERALS>
         <PERIPHERAL INSTANCE="zynq_ultra_ps_e_0"/>
-        <PERIPHERAL INSTANCE="wasabi_0"/>
+        <PERIPHERAL INSTANCE="wasabi"/>
       </PERIPHERALS>
     </MODULE>
-    <MODULE COREREVISION="2007271601" FULLNAME="/wasabi_0" HWVERSION="1.0" INSTANCE="wasabi_0" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="wasabi" VLNV="xilinx.com:hls:wasabi:1.0">
+    <MODULE COREREVISION="2007271601" FULLNAME="/wasabi" HWVERSION="1.0" INSTANCE="wasabi" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="wasabi" VLNV="xilinx.com:hls:wasabi:1.0">
       <DOCUMENTS/>
       <ADDRESSBLOCKS>
         <ADDRESSBLOCK ACCESS="read-write" INTERFACE="s_axi_AXILiteS" NAME="Reg" RANGE="65536" USAGE="register">
@@ -5984,7 +5984,7 @@
       <PARAMETERS>
         <PARAMETER NAME="C_S_AXI_AXILITES_ADDR_WIDTH" VALUE="4"/>
         <PARAMETER NAME="C_S_AXI_AXILITES_DATA_WIDTH" VALUE="32"/>
-        <PARAMETER NAME="Component_Name" VALUE="design_1_wasabi_0_0"/>
+        <PARAMETER NAME="Component_Name" VALUE="design_1_wasabi_0"/>
         <PARAMETER NAME="clk_period" VALUE="3"/>
         <PARAMETER NAME="machine" VALUE="64"/>
         <PARAMETER NAME="combinational" VALUE="0"/>
@@ -6288,7 +6288,7 @@
             <PORTMAP LOGICAL="TLAST" PHYSICAL="src_stream_TLAST"/>
           </PORTMAPS>
         </BUSINTERFACE>
-        <BUSINTERFACE BUSNAME="wasabi_0_dst_stream" NAME="dst_stream" TYPE="INITIATOR" VLNV="xilinx.com:interface:axis:1.0">
+        <BUSINTERFACE BUSNAME="wasabi_dst_stream" NAME="dst_stream" TYPE="INITIATOR" VLNV="xilinx.com:interface:axis:1.0">
           <PARAMETER NAME="TDATA_NUM_BYTES" VALUE="16"/>
           <PARAMETER NAME="TUSER_WIDTH" VALUE="0"/>
           <PARAMETER NAME="LAYERED_METADATA"/>
@@ -8429,7 +8429,7 @@
             <CONNECTION INSTANCE="ps8_0_axi_periph" PORT="M01_ACLK"/>
             <CONNECTION INSTANCE="transactions" PORT="s_axi_lite_aclk"/>
             <CONNECTION INSTANCE="ps8_0_axi_periph" PORT="M02_ACLK"/>
-            <CONNECTION INSTANCE="wasabi_0" PORT="ap_clk"/>
+            <CONNECTION INSTANCE="wasabi" PORT="ap_clk"/>
             <CONNECTION INSTANCE="ps8_0_axi_periph" PORT="M03_ACLK"/>
             <CONNECTION INSTANCE="activations" PORT="m_axi_mm2s_aclk"/>
             <CONNECTION INSTANCE="axi_smc" PORT="aclk"/>
@@ -8594,13 +8594,13 @@
         <MEMRANGE ADDRESSBLOCK="Reg" BASENAME="C_BASEADDR" BASEVALUE="0x80000000" HIGHNAME="C_HIGHADDR" HIGHVALUE="0x8000FFFF" INSTANCE="activations" IS_DATA="TRUE" IS_INSTRUCTION="TRUE" MASTERBUSINTERFACE="M_AXI_HPM0_LPD" MEMTYPE="REGISTER" SLAVEBUSINTERFACE="S_AXI_LITE"/>
         <MEMRANGE ADDRESSBLOCK="Reg" BASENAME="C_BASEADDR" BASEVALUE="0x80010000" HIGHNAME="C_HIGHADDR" HIGHVALUE="0x8001FFFF" INSTANCE="instructions" IS_DATA="TRUE" IS_INSTRUCTION="TRUE" MASTERBUSINTERFACE="M_AXI_HPM0_LPD" MEMTYPE="REGISTER" SLAVEBUSINTERFACE="S_AXI_LITE"/>
         <MEMRANGE ADDRESSBLOCK="Reg" BASENAME="C_BASEADDR" BASEVALUE="0x80020000" HIGHNAME="C_HIGHADDR" HIGHVALUE="0x8002FFFF" INSTANCE="transactions" IS_DATA="TRUE" IS_INSTRUCTION="TRUE" MASTERBUSINTERFACE="M_AXI_HPM0_LPD" MEMTYPE="REGISTER" SLAVEBUSINTERFACE="S_AXI_LITE"/>
-        <MEMRANGE ADDRESSBLOCK="Reg" BASENAME="C_S_AXI_AXILITES_BASEADDR" BASEVALUE="0x80030000" HIGHNAME="C_S_AXI_AXILITES_HIGHADDR" HIGHVALUE="0x8003FFFF" INSTANCE="wasabi_0" IS_DATA="TRUE" IS_INSTRUCTION="TRUE" MASTERBUSINTERFACE="M_AXI_HPM0_LPD" MEMTYPE="REGISTER" SLAVEBUSINTERFACE="s_axi_AXILiteS"/>
+        <MEMRANGE ADDRESSBLOCK="Reg" BASENAME="C_S_AXI_AXILITES_BASEADDR" BASEVALUE="0x80030000" HIGHNAME="C_S_AXI_AXILITES_HIGHADDR" HIGHVALUE="0x8003FFFF" INSTANCE="wasabi" IS_DATA="TRUE" IS_INSTRUCTION="TRUE" MASTERBUSINTERFACE="M_AXI_HPM0_LPD" MEMTYPE="REGISTER" SLAVEBUSINTERFACE="s_axi_AXILiteS"/>
       </MEMORYMAP>
       <PERIPHERALS>
         <PERIPHERAL INSTANCE="activations"/>
         <PERIPHERAL INSTANCE="instructions"/>
         <PERIPHERAL INSTANCE="transactions"/>
-        <PERIPHERAL INSTANCE="wasabi_0"/>
+        <PERIPHERAL INSTANCE="wasabi"/>
       </PERIPHERALS>
     </MODULE>
   </MODULES>
