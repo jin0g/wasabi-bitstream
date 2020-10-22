@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
-<EDKSYSTEM EDWVERSION="1.2" TIMESTAMP="Thu Oct  1 05:00:54 2020" VIVADOVERSION="2020.1">
+<EDKSYSTEM EDWVERSION="1.2" TIMESTAMP="Wed Oct 21 17:13:27 2020" VIVADOVERSION="2020.1">
 
   <SYSTEMINFO ARCH="zynquplus" BOARD="xilinx.com:zcu102:part0:3.3" DEVICE="xczu9eg" NAME="design_1" PACKAGE="ffvb1156" SPEEDGRADE="-2"/>
 
@@ -892,17 +892,17 @@
         <PARAMETER NAME="C_HIGHADDR" VALUE="0xA000FFFF"/>
       </PARAMETERS>
       <PORTS>
-        <PORT CLKFREQUENCY="299970032" DIR="I" NAME="s_axi_lite_aclk" SIGIS="clk" SIGNAME="zynq_ultra_ps_e_0_pl_clk0">
+        <PORT CLKFREQUENCY="187500000" DIR="I" NAME="s_axi_lite_aclk" SIGIS="clk" SIGNAME="zynq_ultra_ps_e_0_pl_clk0">
           <CONNECTIONS>
             <CONNECTION INSTANCE="zynq_ultra_ps_e_0" PORT="pl_clk0"/>
           </CONNECTIONS>
         </PORT>
-        <PORT CLKFREQUENCY="299970032" DIR="I" NAME="m_axi_mm2s_aclk" SIGIS="clk" SIGNAME="zynq_ultra_ps_e_0_pl_clk0">
+        <PORT CLKFREQUENCY="187500000" DIR="I" NAME="m_axi_mm2s_aclk" SIGIS="clk" SIGNAME="zynq_ultra_ps_e_0_pl_clk0">
           <CONNECTIONS>
             <CONNECTION INSTANCE="zynq_ultra_ps_e_0" PORT="pl_clk0"/>
           </CONNECTIONS>
         </PORT>
-        <PORT CLKFREQUENCY="299970032" DIR="I" NAME="m_axi_s2mm_aclk" SIGIS="clk" SIGNAME="zynq_ultra_ps_e_0_pl_clk0">
+        <PORT CLKFREQUENCY="187500000" DIR="I" NAME="m_axi_s2mm_aclk" SIGIS="clk" SIGNAME="zynq_ultra_ps_e_0_pl_clk0">
           <CONNECTIONS>
             <CONNECTION INSTANCE="zynq_ultra_ps_e_0" PORT="pl_clk0"/>
           </CONNECTIONS>
@@ -1188,7 +1188,7 @@
         <BUSINTERFACE BUSNAME="ps8_0_axi_periph_M00_AXI" DATAWIDTH="32" NAME="S_AXI_LITE" TYPE="SLAVE" VLNV="xilinx.com:interface:aximm:1.0">
           <PARAMETER NAME="DATA_WIDTH" VALUE="32"/>
           <PARAMETER NAME="PROTOCOL" VALUE="AXI4LITE"/>
-          <PARAMETER NAME="FREQ_HZ" VALUE="299970032"/>
+          <PARAMETER NAME="FREQ_HZ" VALUE="187500000"/>
           <PARAMETER NAME="ID_WIDTH" VALUE="0"/>
           <PARAMETER NAME="ADDR_WIDTH" VALUE="10"/>
           <PARAMETER NAME="AWUSER_WIDTH" VALUE="0"/>
@@ -1241,7 +1241,7 @@
           <PARAMETER NAME="NUM_READ_OUTSTANDING" VALUE="16"/>
           <PARAMETER NAME="DATA_WIDTH" VALUE="128"/>
           <PARAMETER NAME="PROTOCOL" VALUE="AXI4"/>
-          <PARAMETER NAME="FREQ_HZ" VALUE="299970032"/>
+          <PARAMETER NAME="FREQ_HZ" VALUE="187500000"/>
           <PARAMETER NAME="ID_WIDTH" VALUE="0"/>
           <PARAMETER NAME="ADDR_WIDTH" VALUE="32"/>
           <PARAMETER NAME="AWUSER_WIDTH" VALUE="0"/>
@@ -1289,7 +1289,7 @@
           <PARAMETER NAME="NUM_WRITE_OUTSTANDING" VALUE="16"/>
           <PARAMETER NAME="DATA_WIDTH" VALUE="128"/>
           <PARAMETER NAME="PROTOCOL" VALUE="AXI4"/>
-          <PARAMETER NAME="FREQ_HZ" VALUE="299970032"/>
+          <PARAMETER NAME="FREQ_HZ" VALUE="187500000"/>
           <PARAMETER NAME="ID_WIDTH" VALUE="0"/>
           <PARAMETER NAME="ADDR_WIDTH" VALUE="32"/>
           <PARAMETER NAME="AWUSER_WIDTH" VALUE="0"/>
@@ -1344,7 +1344,7 @@
           <PARAMETER NAME="HAS_TSTRB" VALUE="0"/>
           <PARAMETER NAME="HAS_TKEEP" VALUE="1"/>
           <PARAMETER NAME="HAS_TLAST" VALUE="1"/>
-          <PARAMETER NAME="FREQ_HZ" VALUE="299970032"/>
+          <PARAMETER NAME="FREQ_HZ" VALUE="187500000"/>
           <PARAMETER NAME="PHASE" VALUE="0.000"/>
           <PARAMETER NAME="CLK_DOMAIN" VALUE="design_1_zynq_ultra_ps_e_0_1_pl_clk0"/>
           <PARAMETER NAME="LAYERED_METADATA" VALUE="undef"/>
@@ -1367,7 +1367,7 @@
           <PARAMETER NAME="HAS_TSTRB" VALUE="0"/>
           <PARAMETER NAME="HAS_TKEEP" VALUE="1"/>
           <PARAMETER NAME="HAS_TLAST" VALUE="1"/>
-          <PARAMETER NAME="FREQ_HZ" VALUE="299970032"/>
+          <PARAMETER NAME="FREQ_HZ" VALUE="187500000"/>
           <PARAMETER NAME="PHASE" VALUE="0.000"/>
           <PARAMETER NAME="CLK_DOMAIN" VALUE="design_1_zynq_ultra_ps_e_0_1_pl_clk0"/>
           <PARAMETER NAME="LAYERED_METADATA" VALUE="undef"/>
@@ -1410,7 +1410,7 @@
         <PARAMETER NAME="EDK_IPTYPE" VALUE="BUS"/>
       </PARAMETERS>
       <PORTS>
-        <PORT CLKFREQUENCY="299970032" DIR="I" NAME="aclk" SIGIS="clk" SIGNAME="zynq_ultra_ps_e_0_pl_clk0">
+        <PORT CLKFREQUENCY="187500000" DIR="I" NAME="aclk" SIGIS="clk" SIGNAME="zynq_ultra_ps_e_0_pl_clk0">
           <CONNECTIONS>
             <CONNECTION INSTANCE="zynq_ultra_ps_e_0" PORT="pl_clk0"/>
           </CONNECTIONS>
@@ -1873,7 +1873,7 @@
         <BUSINTERFACE BUSNAME="inst_M_AXI_MM2S" DATAWIDTH="32" NAME="S00_AXI" TYPE="SLAVE" VLNV="xilinx.com:interface:aximm:1.0">
           <PARAMETER NAME="DATA_WIDTH" VALUE="32"/>
           <PARAMETER NAME="PROTOCOL" VALUE="AXI4"/>
-          <PARAMETER NAME="FREQ_HZ" VALUE="299970032"/>
+          <PARAMETER NAME="FREQ_HZ" VALUE="187500000"/>
           <PARAMETER NAME="ID_WIDTH" VALUE="0"/>
           <PARAMETER NAME="ADDR_WIDTH" VALUE="32"/>
           <PARAMETER NAME="AWUSER_WIDTH" VALUE="0"/>
@@ -1923,7 +1923,7 @@
         <BUSINTERFACE BUSNAME="activations_M_AXI_MM2S" DATAWIDTH="128" NAME="S01_AXI" TYPE="SLAVE" VLNV="xilinx.com:interface:aximm:1.0">
           <PARAMETER NAME="DATA_WIDTH" VALUE="128"/>
           <PARAMETER NAME="PROTOCOL" VALUE="AXI4"/>
-          <PARAMETER NAME="FREQ_HZ" VALUE="299970032"/>
+          <PARAMETER NAME="FREQ_HZ" VALUE="187500000"/>
           <PARAMETER NAME="ID_WIDTH" VALUE="0"/>
           <PARAMETER NAME="ADDR_WIDTH" VALUE="32"/>
           <PARAMETER NAME="AWUSER_WIDTH" VALUE="0"/>
@@ -1973,7 +1973,7 @@
         <BUSINTERFACE BUSNAME="data_M_AXI_MM2S" DATAWIDTH="256" NAME="S02_AXI" TYPE="SLAVE" VLNV="xilinx.com:interface:aximm:1.0">
           <PARAMETER NAME="DATA_WIDTH" VALUE="256"/>
           <PARAMETER NAME="PROTOCOL" VALUE="AXI4"/>
-          <PARAMETER NAME="FREQ_HZ" VALUE="299970032"/>
+          <PARAMETER NAME="FREQ_HZ" VALUE="187500000"/>
           <PARAMETER NAME="ID_WIDTH" VALUE="0"/>
           <PARAMETER NAME="ADDR_WIDTH" VALUE="32"/>
           <PARAMETER NAME="AWUSER_WIDTH" VALUE="0"/>
@@ -2023,7 +2023,7 @@
         <BUSINTERFACE BUSNAME="activations_M_AXI_S2MM" DATAWIDTH="128" NAME="S03_AXI" TYPE="SLAVE" VLNV="xilinx.com:interface:aximm:1.0">
           <PARAMETER NAME="DATA_WIDTH" VALUE="128"/>
           <PARAMETER NAME="PROTOCOL" VALUE="AXI4"/>
-          <PARAMETER NAME="FREQ_HZ" VALUE="299970032"/>
+          <PARAMETER NAME="FREQ_HZ" VALUE="187500000"/>
           <PARAMETER NAME="ID_WIDTH" VALUE="0"/>
           <PARAMETER NAME="ADDR_WIDTH" VALUE="32"/>
           <PARAMETER NAME="AWUSER_WIDTH" VALUE="0"/>
@@ -2076,7 +2076,7 @@
         <BUSINTERFACE BUSNAME="axi_smc_M00_AXI" DATAWIDTH="128" NAME="M00_AXI" TYPE="MASTER" VLNV="xilinx.com:interface:aximm:1.0">
           <PARAMETER NAME="DATA_WIDTH" VALUE="128"/>
           <PARAMETER NAME="PROTOCOL" VALUE="AXI4"/>
-          <PARAMETER NAME="FREQ_HZ" VALUE="299970032"/>
+          <PARAMETER NAME="FREQ_HZ" VALUE="187500000"/>
           <PARAMETER NAME="ID_WIDTH" VALUE="0"/>
           <PARAMETER NAME="ADDR_WIDTH" VALUE="49"/>
           <PARAMETER NAME="AWUSER_WIDTH" VALUE="0"/>
@@ -2298,7 +2298,7 @@
         <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
       </PARAMETERS>
       <PORTS>
-        <PORT CLKFREQUENCY="299970032" DIR="I" NAME="clka" SIGIS="clk" SIGNAME="zynq_ultra_ps_e_0_pl_clk0">
+        <PORT CLKFREQUENCY="187500000" DIR="I" NAME="clka" SIGIS="clk" SIGNAME="zynq_ultra_ps_e_0_pl_clk0">
           <CONNECTIONS>
             <CONNECTION INSTANCE="zynq_ultra_ps_e_0" PORT="pl_clk0"/>
           </CONNECTIONS>
@@ -2320,7 +2320,7 @@
             <CONNECTION INSTANCE="wasabi" PORT="mem1_0_V_q0"/>
           </CONNECTIONS>
         </PORT>
-        <PORT CLKFREQUENCY="299970032" DIR="I" NAME="clkb" SIGIS="clk" SIGNAME="zynq_ultra_ps_e_0_pl_clk0">
+        <PORT CLKFREQUENCY="187500000" DIR="I" NAME="clkb" SIGIS="clk" SIGNAME="zynq_ultra_ps_e_0_pl_clk0">
           <CONNECTIONS>
             <CONNECTION INSTANCE="zynq_ultra_ps_e_0" PORT="pl_clk0"/>
           </CONNECTIONS>
@@ -2541,7 +2541,7 @@
         <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
       </PARAMETERS>
       <PORTS>
-        <PORT CLKFREQUENCY="299970032" DIR="I" NAME="clka" SIGIS="clk" SIGNAME="zynq_ultra_ps_e_0_pl_clk0">
+        <PORT CLKFREQUENCY="187500000" DIR="I" NAME="clka" SIGIS="clk" SIGNAME="zynq_ultra_ps_e_0_pl_clk0">
           <CONNECTIONS>
             <CONNECTION INSTANCE="zynq_ultra_ps_e_0" PORT="pl_clk0"/>
           </CONNECTIONS>
@@ -2563,7 +2563,7 @@
             <CONNECTION INSTANCE="wasabi" PORT="mem1_1_V_q0"/>
           </CONNECTIONS>
         </PORT>
-        <PORT CLKFREQUENCY="299970032" DIR="I" NAME="clkb" SIGIS="clk" SIGNAME="zynq_ultra_ps_e_0_pl_clk0">
+        <PORT CLKFREQUENCY="187500000" DIR="I" NAME="clkb" SIGIS="clk" SIGNAME="zynq_ultra_ps_e_0_pl_clk0">
           <CONNECTIONS>
             <CONNECTION INSTANCE="zynq_ultra_ps_e_0" PORT="pl_clk0"/>
           </CONNECTIONS>
@@ -2784,7 +2784,7 @@
         <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
       </PARAMETERS>
       <PORTS>
-        <PORT CLKFREQUENCY="299970032" DIR="I" NAME="clka" SIGIS="clk" SIGNAME="zynq_ultra_ps_e_0_pl_clk0">
+        <PORT CLKFREQUENCY="187500000" DIR="I" NAME="clka" SIGIS="clk" SIGNAME="zynq_ultra_ps_e_0_pl_clk0">
           <CONNECTIONS>
             <CONNECTION INSTANCE="zynq_ultra_ps_e_0" PORT="pl_clk0"/>
           </CONNECTIONS>
@@ -2806,7 +2806,7 @@
             <CONNECTION INSTANCE="wasabi" PORT="mem1_10_V_q0"/>
           </CONNECTIONS>
         </PORT>
-        <PORT CLKFREQUENCY="299970032" DIR="I" NAME="clkb" SIGIS="clk" SIGNAME="zynq_ultra_ps_e_0_pl_clk0">
+        <PORT CLKFREQUENCY="187500000" DIR="I" NAME="clkb" SIGIS="clk" SIGNAME="zynq_ultra_ps_e_0_pl_clk0">
           <CONNECTIONS>
             <CONNECTION INSTANCE="zynq_ultra_ps_e_0" PORT="pl_clk0"/>
           </CONNECTIONS>
@@ -3027,7 +3027,7 @@
         <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
       </PARAMETERS>
       <PORTS>
-        <PORT CLKFREQUENCY="299970032" DIR="I" NAME="clka" SIGIS="clk" SIGNAME="zynq_ultra_ps_e_0_pl_clk0">
+        <PORT CLKFREQUENCY="187500000" DIR="I" NAME="clka" SIGIS="clk" SIGNAME="zynq_ultra_ps_e_0_pl_clk0">
           <CONNECTIONS>
             <CONNECTION INSTANCE="zynq_ultra_ps_e_0" PORT="pl_clk0"/>
           </CONNECTIONS>
@@ -3049,7 +3049,7 @@
             <CONNECTION INSTANCE="wasabi" PORT="mem1_11_V_q0"/>
           </CONNECTIONS>
         </PORT>
-        <PORT CLKFREQUENCY="299970032" DIR="I" NAME="clkb" SIGIS="clk" SIGNAME="zynq_ultra_ps_e_0_pl_clk0">
+        <PORT CLKFREQUENCY="187500000" DIR="I" NAME="clkb" SIGIS="clk" SIGNAME="zynq_ultra_ps_e_0_pl_clk0">
           <CONNECTIONS>
             <CONNECTION INSTANCE="zynq_ultra_ps_e_0" PORT="pl_clk0"/>
           </CONNECTIONS>
@@ -3270,7 +3270,7 @@
         <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
       </PARAMETERS>
       <PORTS>
-        <PORT CLKFREQUENCY="299970032" DIR="I" NAME="clka" SIGIS="clk" SIGNAME="zynq_ultra_ps_e_0_pl_clk0">
+        <PORT CLKFREQUENCY="187500000" DIR="I" NAME="clka" SIGIS="clk" SIGNAME="zynq_ultra_ps_e_0_pl_clk0">
           <CONNECTIONS>
             <CONNECTION INSTANCE="zynq_ultra_ps_e_0" PORT="pl_clk0"/>
           </CONNECTIONS>
@@ -3292,7 +3292,7 @@
             <CONNECTION INSTANCE="wasabi" PORT="mem1_12_V_q0"/>
           </CONNECTIONS>
         </PORT>
-        <PORT CLKFREQUENCY="299970032" DIR="I" NAME="clkb" SIGIS="clk" SIGNAME="zynq_ultra_ps_e_0_pl_clk0">
+        <PORT CLKFREQUENCY="187500000" DIR="I" NAME="clkb" SIGIS="clk" SIGNAME="zynq_ultra_ps_e_0_pl_clk0">
           <CONNECTIONS>
             <CONNECTION INSTANCE="zynq_ultra_ps_e_0" PORT="pl_clk0"/>
           </CONNECTIONS>
@@ -3513,7 +3513,7 @@
         <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
       </PARAMETERS>
       <PORTS>
-        <PORT CLKFREQUENCY="299970032" DIR="I" NAME="clka" SIGIS="clk" SIGNAME="zynq_ultra_ps_e_0_pl_clk0">
+        <PORT CLKFREQUENCY="187500000" DIR="I" NAME="clka" SIGIS="clk" SIGNAME="zynq_ultra_ps_e_0_pl_clk0">
           <CONNECTIONS>
             <CONNECTION INSTANCE="zynq_ultra_ps_e_0" PORT="pl_clk0"/>
           </CONNECTIONS>
@@ -3535,7 +3535,7 @@
             <CONNECTION INSTANCE="wasabi" PORT="mem1_13_V_q0"/>
           </CONNECTIONS>
         </PORT>
-        <PORT CLKFREQUENCY="299970032" DIR="I" NAME="clkb" SIGIS="clk" SIGNAME="zynq_ultra_ps_e_0_pl_clk0">
+        <PORT CLKFREQUENCY="187500000" DIR="I" NAME="clkb" SIGIS="clk" SIGNAME="zynq_ultra_ps_e_0_pl_clk0">
           <CONNECTIONS>
             <CONNECTION INSTANCE="zynq_ultra_ps_e_0" PORT="pl_clk0"/>
           </CONNECTIONS>
@@ -3756,7 +3756,7 @@
         <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
       </PARAMETERS>
       <PORTS>
-        <PORT CLKFREQUENCY="299970032" DIR="I" NAME="clka" SIGIS="clk" SIGNAME="zynq_ultra_ps_e_0_pl_clk0">
+        <PORT CLKFREQUENCY="187500000" DIR="I" NAME="clka" SIGIS="clk" SIGNAME="zynq_ultra_ps_e_0_pl_clk0">
           <CONNECTIONS>
             <CONNECTION INSTANCE="zynq_ultra_ps_e_0" PORT="pl_clk0"/>
           </CONNECTIONS>
@@ -3778,7 +3778,7 @@
             <CONNECTION INSTANCE="wasabi" PORT="mem1_14_V_q0"/>
           </CONNECTIONS>
         </PORT>
-        <PORT CLKFREQUENCY="299970032" DIR="I" NAME="clkb" SIGIS="clk" SIGNAME="zynq_ultra_ps_e_0_pl_clk0">
+        <PORT CLKFREQUENCY="187500000" DIR="I" NAME="clkb" SIGIS="clk" SIGNAME="zynq_ultra_ps_e_0_pl_clk0">
           <CONNECTIONS>
             <CONNECTION INSTANCE="zynq_ultra_ps_e_0" PORT="pl_clk0"/>
           </CONNECTIONS>
@@ -3999,7 +3999,7 @@
         <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
       </PARAMETERS>
       <PORTS>
-        <PORT CLKFREQUENCY="299970032" DIR="I" NAME="clka" SIGIS="clk" SIGNAME="zynq_ultra_ps_e_0_pl_clk0">
+        <PORT CLKFREQUENCY="187500000" DIR="I" NAME="clka" SIGIS="clk" SIGNAME="zynq_ultra_ps_e_0_pl_clk0">
           <CONNECTIONS>
             <CONNECTION INSTANCE="zynq_ultra_ps_e_0" PORT="pl_clk0"/>
           </CONNECTIONS>
@@ -4021,7 +4021,7 @@
             <CONNECTION INSTANCE="wasabi" PORT="mem1_15_V_q0"/>
           </CONNECTIONS>
         </PORT>
-        <PORT CLKFREQUENCY="299970032" DIR="I" NAME="clkb" SIGIS="clk" SIGNAME="zynq_ultra_ps_e_0_pl_clk0">
+        <PORT CLKFREQUENCY="187500000" DIR="I" NAME="clkb" SIGIS="clk" SIGNAME="zynq_ultra_ps_e_0_pl_clk0">
           <CONNECTIONS>
             <CONNECTION INSTANCE="zynq_ultra_ps_e_0" PORT="pl_clk0"/>
           </CONNECTIONS>
@@ -4242,7 +4242,7 @@
         <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
       </PARAMETERS>
       <PORTS>
-        <PORT CLKFREQUENCY="299970032" DIR="I" NAME="clka" SIGIS="clk" SIGNAME="zynq_ultra_ps_e_0_pl_clk0">
+        <PORT CLKFREQUENCY="187500000" DIR="I" NAME="clka" SIGIS="clk" SIGNAME="zynq_ultra_ps_e_0_pl_clk0">
           <CONNECTIONS>
             <CONNECTION INSTANCE="zynq_ultra_ps_e_0" PORT="pl_clk0"/>
           </CONNECTIONS>
@@ -4264,7 +4264,7 @@
             <CONNECTION INSTANCE="wasabi" PORT="mem1_2_V_q0"/>
           </CONNECTIONS>
         </PORT>
-        <PORT CLKFREQUENCY="299970032" DIR="I" NAME="clkb" SIGIS="clk" SIGNAME="zynq_ultra_ps_e_0_pl_clk0">
+        <PORT CLKFREQUENCY="187500000" DIR="I" NAME="clkb" SIGIS="clk" SIGNAME="zynq_ultra_ps_e_0_pl_clk0">
           <CONNECTIONS>
             <CONNECTION INSTANCE="zynq_ultra_ps_e_0" PORT="pl_clk0"/>
           </CONNECTIONS>
@@ -4485,7 +4485,7 @@
         <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
       </PARAMETERS>
       <PORTS>
-        <PORT CLKFREQUENCY="299970032" DIR="I" NAME="clka" SIGIS="clk" SIGNAME="zynq_ultra_ps_e_0_pl_clk0">
+        <PORT CLKFREQUENCY="187500000" DIR="I" NAME="clka" SIGIS="clk" SIGNAME="zynq_ultra_ps_e_0_pl_clk0">
           <CONNECTIONS>
             <CONNECTION INSTANCE="zynq_ultra_ps_e_0" PORT="pl_clk0"/>
           </CONNECTIONS>
@@ -4507,7 +4507,7 @@
             <CONNECTION INSTANCE="wasabi" PORT="mem1_3_V_q0"/>
           </CONNECTIONS>
         </PORT>
-        <PORT CLKFREQUENCY="299970032" DIR="I" NAME="clkb" SIGIS="clk" SIGNAME="zynq_ultra_ps_e_0_pl_clk0">
+        <PORT CLKFREQUENCY="187500000" DIR="I" NAME="clkb" SIGIS="clk" SIGNAME="zynq_ultra_ps_e_0_pl_clk0">
           <CONNECTIONS>
             <CONNECTION INSTANCE="zynq_ultra_ps_e_0" PORT="pl_clk0"/>
           </CONNECTIONS>
@@ -4728,7 +4728,7 @@
         <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
       </PARAMETERS>
       <PORTS>
-        <PORT CLKFREQUENCY="299970032" DIR="I" NAME="clka" SIGIS="clk" SIGNAME="zynq_ultra_ps_e_0_pl_clk0">
+        <PORT CLKFREQUENCY="187500000" DIR="I" NAME="clka" SIGIS="clk" SIGNAME="zynq_ultra_ps_e_0_pl_clk0">
           <CONNECTIONS>
             <CONNECTION INSTANCE="zynq_ultra_ps_e_0" PORT="pl_clk0"/>
           </CONNECTIONS>
@@ -4750,7 +4750,7 @@
             <CONNECTION INSTANCE="wasabi" PORT="mem1_4_V_q0"/>
           </CONNECTIONS>
         </PORT>
-        <PORT CLKFREQUENCY="299970032" DIR="I" NAME="clkb" SIGIS="clk" SIGNAME="zynq_ultra_ps_e_0_pl_clk0">
+        <PORT CLKFREQUENCY="187500000" DIR="I" NAME="clkb" SIGIS="clk" SIGNAME="zynq_ultra_ps_e_0_pl_clk0">
           <CONNECTIONS>
             <CONNECTION INSTANCE="zynq_ultra_ps_e_0" PORT="pl_clk0"/>
           </CONNECTIONS>
@@ -4971,7 +4971,7 @@
         <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
       </PARAMETERS>
       <PORTS>
-        <PORT CLKFREQUENCY="299970032" DIR="I" NAME="clka" SIGIS="clk" SIGNAME="zynq_ultra_ps_e_0_pl_clk0">
+        <PORT CLKFREQUENCY="187500000" DIR="I" NAME="clka" SIGIS="clk" SIGNAME="zynq_ultra_ps_e_0_pl_clk0">
           <CONNECTIONS>
             <CONNECTION INSTANCE="zynq_ultra_ps_e_0" PORT="pl_clk0"/>
           </CONNECTIONS>
@@ -4993,7 +4993,7 @@
             <CONNECTION INSTANCE="wasabi" PORT="mem1_5_V_q0"/>
           </CONNECTIONS>
         </PORT>
-        <PORT CLKFREQUENCY="299970032" DIR="I" NAME="clkb" SIGIS="clk" SIGNAME="zynq_ultra_ps_e_0_pl_clk0">
+        <PORT CLKFREQUENCY="187500000" DIR="I" NAME="clkb" SIGIS="clk" SIGNAME="zynq_ultra_ps_e_0_pl_clk0">
           <CONNECTIONS>
             <CONNECTION INSTANCE="zynq_ultra_ps_e_0" PORT="pl_clk0"/>
           </CONNECTIONS>
@@ -5214,7 +5214,7 @@
         <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
       </PARAMETERS>
       <PORTS>
-        <PORT CLKFREQUENCY="299970032" DIR="I" NAME="clka" SIGIS="clk" SIGNAME="zynq_ultra_ps_e_0_pl_clk0">
+        <PORT CLKFREQUENCY="187500000" DIR="I" NAME="clka" SIGIS="clk" SIGNAME="zynq_ultra_ps_e_0_pl_clk0">
           <CONNECTIONS>
             <CONNECTION INSTANCE="zynq_ultra_ps_e_0" PORT="pl_clk0"/>
           </CONNECTIONS>
@@ -5236,7 +5236,7 @@
             <CONNECTION INSTANCE="wasabi" PORT="mem1_6_V_q0"/>
           </CONNECTIONS>
         </PORT>
-        <PORT CLKFREQUENCY="299970032" DIR="I" NAME="clkb" SIGIS="clk" SIGNAME="zynq_ultra_ps_e_0_pl_clk0">
+        <PORT CLKFREQUENCY="187500000" DIR="I" NAME="clkb" SIGIS="clk" SIGNAME="zynq_ultra_ps_e_0_pl_clk0">
           <CONNECTIONS>
             <CONNECTION INSTANCE="zynq_ultra_ps_e_0" PORT="pl_clk0"/>
           </CONNECTIONS>
@@ -5457,7 +5457,7 @@
         <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
       </PARAMETERS>
       <PORTS>
-        <PORT CLKFREQUENCY="299970032" DIR="I" NAME="clka" SIGIS="clk" SIGNAME="zynq_ultra_ps_e_0_pl_clk0">
+        <PORT CLKFREQUENCY="187500000" DIR="I" NAME="clka" SIGIS="clk" SIGNAME="zynq_ultra_ps_e_0_pl_clk0">
           <CONNECTIONS>
             <CONNECTION INSTANCE="zynq_ultra_ps_e_0" PORT="pl_clk0"/>
           </CONNECTIONS>
@@ -5479,7 +5479,7 @@
             <CONNECTION INSTANCE="wasabi" PORT="mem1_7_V_q0"/>
           </CONNECTIONS>
         </PORT>
-        <PORT CLKFREQUENCY="299970032" DIR="I" NAME="clkb" SIGIS="clk" SIGNAME="zynq_ultra_ps_e_0_pl_clk0">
+        <PORT CLKFREQUENCY="187500000" DIR="I" NAME="clkb" SIGIS="clk" SIGNAME="zynq_ultra_ps_e_0_pl_clk0">
           <CONNECTIONS>
             <CONNECTION INSTANCE="zynq_ultra_ps_e_0" PORT="pl_clk0"/>
           </CONNECTIONS>
@@ -5700,7 +5700,7 @@
         <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
       </PARAMETERS>
       <PORTS>
-        <PORT CLKFREQUENCY="299970032" DIR="I" NAME="clka" SIGIS="clk" SIGNAME="zynq_ultra_ps_e_0_pl_clk0">
+        <PORT CLKFREQUENCY="187500000" DIR="I" NAME="clka" SIGIS="clk" SIGNAME="zynq_ultra_ps_e_0_pl_clk0">
           <CONNECTIONS>
             <CONNECTION INSTANCE="zynq_ultra_ps_e_0" PORT="pl_clk0"/>
           </CONNECTIONS>
@@ -5722,7 +5722,7 @@
             <CONNECTION INSTANCE="wasabi" PORT="mem1_8_V_q0"/>
           </CONNECTIONS>
         </PORT>
-        <PORT CLKFREQUENCY="299970032" DIR="I" NAME="clkb" SIGIS="clk" SIGNAME="zynq_ultra_ps_e_0_pl_clk0">
+        <PORT CLKFREQUENCY="187500000" DIR="I" NAME="clkb" SIGIS="clk" SIGNAME="zynq_ultra_ps_e_0_pl_clk0">
           <CONNECTIONS>
             <CONNECTION INSTANCE="zynq_ultra_ps_e_0" PORT="pl_clk0"/>
           </CONNECTIONS>
@@ -5943,7 +5943,7 @@
         <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
       </PARAMETERS>
       <PORTS>
-        <PORT CLKFREQUENCY="299970032" DIR="I" NAME="clka" SIGIS="clk" SIGNAME="zynq_ultra_ps_e_0_pl_clk0">
+        <PORT CLKFREQUENCY="187500000" DIR="I" NAME="clka" SIGIS="clk" SIGNAME="zynq_ultra_ps_e_0_pl_clk0">
           <CONNECTIONS>
             <CONNECTION INSTANCE="zynq_ultra_ps_e_0" PORT="pl_clk0"/>
           </CONNECTIONS>
@@ -5965,7 +5965,7 @@
             <CONNECTION INSTANCE="wasabi" PORT="mem1_9_V_q0"/>
           </CONNECTIONS>
         </PORT>
-        <PORT CLKFREQUENCY="299970032" DIR="I" NAME="clkb" SIGIS="clk" SIGNAME="zynq_ultra_ps_e_0_pl_clk0">
+        <PORT CLKFREQUENCY="187500000" DIR="I" NAME="clkb" SIGIS="clk" SIGNAME="zynq_ultra_ps_e_0_pl_clk0">
           <CONNECTIONS>
             <CONNECTION INSTANCE="zynq_ultra_ps_e_0" PORT="pl_clk0"/>
           </CONNECTIONS>
@@ -6915,12 +6915,12 @@
         <PARAMETER NAME="C_HIGHADDR" VALUE="0xA003FFFF"/>
       </PARAMETERS>
       <PORTS>
-        <PORT CLKFREQUENCY="299970032" DIR="I" NAME="s_axi_lite_aclk" SIGIS="clk" SIGNAME="zynq_ultra_ps_e_0_pl_clk0">
+        <PORT CLKFREQUENCY="187500000" DIR="I" NAME="s_axi_lite_aclk" SIGIS="clk" SIGNAME="zynq_ultra_ps_e_0_pl_clk0">
           <CONNECTIONS>
             <CONNECTION INSTANCE="zynq_ultra_ps_e_0" PORT="pl_clk0"/>
           </CONNECTIONS>
         </PORT>
-        <PORT CLKFREQUENCY="299970032" DIR="I" NAME="m_axi_mm2s_aclk" SIGIS="clk" SIGNAME="zynq_ultra_ps_e_0_pl_clk0">
+        <PORT CLKFREQUENCY="187500000" DIR="I" NAME="m_axi_mm2s_aclk" SIGIS="clk" SIGNAME="zynq_ultra_ps_e_0_pl_clk0">
           <CONNECTIONS>
             <CONNECTION INSTANCE="zynq_ultra_ps_e_0" PORT="pl_clk0"/>
           </CONNECTIONS>
@@ -7103,7 +7103,7 @@
         <BUSINTERFACE BUSNAME="ps8_0_axi_periph_M03_AXI" DATAWIDTH="32" NAME="S_AXI_LITE" TYPE="SLAVE" VLNV="xilinx.com:interface:aximm:1.0">
           <PARAMETER NAME="DATA_WIDTH" VALUE="32"/>
           <PARAMETER NAME="PROTOCOL" VALUE="AXI4LITE"/>
-          <PARAMETER NAME="FREQ_HZ" VALUE="299970032"/>
+          <PARAMETER NAME="FREQ_HZ" VALUE="187500000"/>
           <PARAMETER NAME="ID_WIDTH" VALUE="0"/>
           <PARAMETER NAME="ADDR_WIDTH" VALUE="10"/>
           <PARAMETER NAME="AWUSER_WIDTH" VALUE="0"/>
@@ -7156,7 +7156,7 @@
           <PARAMETER NAME="NUM_READ_OUTSTANDING" VALUE="16"/>
           <PARAMETER NAME="DATA_WIDTH" VALUE="256"/>
           <PARAMETER NAME="PROTOCOL" VALUE="AXI4"/>
-          <PARAMETER NAME="FREQ_HZ" VALUE="299970032"/>
+          <PARAMETER NAME="FREQ_HZ" VALUE="187500000"/>
           <PARAMETER NAME="ID_WIDTH" VALUE="0"/>
           <PARAMETER NAME="ADDR_WIDTH" VALUE="32"/>
           <PARAMETER NAME="AWUSER_WIDTH" VALUE="0"/>
@@ -7208,7 +7208,7 @@
           <PARAMETER NAME="HAS_TSTRB" VALUE="0"/>
           <PARAMETER NAME="HAS_TKEEP" VALUE="1"/>
           <PARAMETER NAME="HAS_TLAST" VALUE="1"/>
-          <PARAMETER NAME="FREQ_HZ" VALUE="299970032"/>
+          <PARAMETER NAME="FREQ_HZ" VALUE="187500000"/>
           <PARAMETER NAME="PHASE" VALUE="0.000"/>
           <PARAMETER NAME="CLK_DOMAIN" VALUE="design_1_zynq_ultra_ps_e_0_1_pl_clk0"/>
           <PARAMETER NAME="LAYERED_METADATA" VALUE="undef"/>
@@ -8117,12 +8117,12 @@
         <PARAMETER NAME="C_HIGHADDR" VALUE="0xA001FFFF"/>
       </PARAMETERS>
       <PORTS>
-        <PORT CLKFREQUENCY="299970032" DIR="I" NAME="s_axi_lite_aclk" SIGIS="clk" SIGNAME="zynq_ultra_ps_e_0_pl_clk0">
+        <PORT CLKFREQUENCY="187500000" DIR="I" NAME="s_axi_lite_aclk" SIGIS="clk" SIGNAME="zynq_ultra_ps_e_0_pl_clk0">
           <CONNECTIONS>
             <CONNECTION INSTANCE="zynq_ultra_ps_e_0" PORT="pl_clk0"/>
           </CONNECTIONS>
         </PORT>
-        <PORT CLKFREQUENCY="299970032" DIR="I" NAME="m_axi_mm2s_aclk" SIGIS="clk" SIGNAME="zynq_ultra_ps_e_0_pl_clk0">
+        <PORT CLKFREQUENCY="187500000" DIR="I" NAME="m_axi_mm2s_aclk" SIGIS="clk" SIGNAME="zynq_ultra_ps_e_0_pl_clk0">
           <CONNECTIONS>
             <CONNECTION INSTANCE="zynq_ultra_ps_e_0" PORT="pl_clk0"/>
           </CONNECTIONS>
@@ -8305,7 +8305,7 @@
         <BUSINTERFACE BUSNAME="ps8_0_axi_periph_M01_AXI" DATAWIDTH="32" NAME="S_AXI_LITE" TYPE="SLAVE" VLNV="xilinx.com:interface:aximm:1.0">
           <PARAMETER NAME="DATA_WIDTH" VALUE="32"/>
           <PARAMETER NAME="PROTOCOL" VALUE="AXI4LITE"/>
-          <PARAMETER NAME="FREQ_HZ" VALUE="299970032"/>
+          <PARAMETER NAME="FREQ_HZ" VALUE="187500000"/>
           <PARAMETER NAME="ID_WIDTH" VALUE="0"/>
           <PARAMETER NAME="ADDR_WIDTH" VALUE="10"/>
           <PARAMETER NAME="AWUSER_WIDTH" VALUE="0"/>
@@ -8358,7 +8358,7 @@
           <PARAMETER NAME="NUM_READ_OUTSTANDING" VALUE="16"/>
           <PARAMETER NAME="DATA_WIDTH" VALUE="32"/>
           <PARAMETER NAME="PROTOCOL" VALUE="AXI4"/>
-          <PARAMETER NAME="FREQ_HZ" VALUE="299970032"/>
+          <PARAMETER NAME="FREQ_HZ" VALUE="187500000"/>
           <PARAMETER NAME="ID_WIDTH" VALUE="0"/>
           <PARAMETER NAME="ADDR_WIDTH" VALUE="32"/>
           <PARAMETER NAME="AWUSER_WIDTH" VALUE="0"/>
@@ -8410,7 +8410,7 @@
           <PARAMETER NAME="HAS_TSTRB" VALUE="0"/>
           <PARAMETER NAME="HAS_TKEEP" VALUE="1"/>
           <PARAMETER NAME="HAS_TLAST" VALUE="1"/>
-          <PARAMETER NAME="FREQ_HZ" VALUE="299970032"/>
+          <PARAMETER NAME="FREQ_HZ" VALUE="187500000"/>
           <PARAMETER NAME="PHASE" VALUE="0.000"/>
           <PARAMETER NAME="CLK_DOMAIN" VALUE="design_1_zynq_ultra_ps_e_0_1_pl_clk0"/>
           <PARAMETER NAME="LAYERED_METADATA" VALUE="undef"/>
@@ -8828,6 +8828,193 @@
             <CONNECTION INSTANCE="rst_ps8_0_99M" PORT="peripheral_aresetn"/>
           </CONNECTIONS>
         </PORT>
+        <PORT DIR="I" LEFT="15" NAME="S01_AXI_awid" RIGHT="0" SIGIS="undef" SIGNAME="ps8_0_axi_periph_S01_AXI_awid">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="zynq_ultra_ps_e_0" PORT="maxigp1_awid"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" LEFT="39" NAME="S01_AXI_awaddr" RIGHT="0" SIGIS="undef" SIGNAME="ps8_0_axi_periph_S01_AXI_awaddr">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="zynq_ultra_ps_e_0" PORT="maxigp1_awaddr"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" LEFT="7" NAME="S01_AXI_awlen" RIGHT="0" SIGIS="undef" SIGNAME="ps8_0_axi_periph_S01_AXI_awlen">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="zynq_ultra_ps_e_0" PORT="maxigp1_awlen"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" LEFT="2" NAME="S01_AXI_awsize" RIGHT="0" SIGIS="undef" SIGNAME="ps8_0_axi_periph_S01_AXI_awsize">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="zynq_ultra_ps_e_0" PORT="maxigp1_awsize"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" LEFT="1" NAME="S01_AXI_awburst" RIGHT="0" SIGIS="undef" SIGNAME="ps8_0_axi_periph_S01_AXI_awburst">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="zynq_ultra_ps_e_0" PORT="maxigp1_awburst"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" LEFT="0" NAME="S01_AXI_awlock" RIGHT="0" SIGIS="undef" SIGNAME="ps8_0_axi_periph_S01_AXI_awlock">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="zynq_ultra_ps_e_0" PORT="maxigp1_awlock"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" LEFT="3" NAME="S01_AXI_awcache" RIGHT="0" SIGIS="undef" SIGNAME="ps8_0_axi_periph_S01_AXI_awcache">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="zynq_ultra_ps_e_0" PORT="maxigp1_awcache"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" LEFT="2" NAME="S01_AXI_awprot" RIGHT="0" SIGIS="undef" SIGNAME="ps8_0_axi_periph_S01_AXI_awprot">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="zynq_ultra_ps_e_0" PORT="maxigp1_awprot"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="S01_AXI_awregion" SIGIS="undef"/>
+        <PORT DIR="I" LEFT="3" NAME="S01_AXI_awqos" RIGHT="0" SIGIS="undef" SIGNAME="ps8_0_axi_periph_S01_AXI_awqos">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="zynq_ultra_ps_e_0" PORT="maxigp1_awqos"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="S01_AXI_awvalid" SIGIS="undef" SIGNAME="ps8_0_axi_periph_S01_AXI_awvalid">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="zynq_ultra_ps_e_0" PORT="maxigp1_awvalid"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="S01_AXI_awready" SIGIS="undef" SIGNAME="ps8_0_axi_periph_S01_AXI_awready">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="zynq_ultra_ps_e_0" PORT="maxigp1_awready"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" LEFT="127" NAME="S01_AXI_wdata" RIGHT="0" SIGIS="undef" SIGNAME="ps8_0_axi_periph_S01_AXI_wdata">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="zynq_ultra_ps_e_0" PORT="maxigp1_wdata"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" LEFT="15" NAME="S01_AXI_wstrb" RIGHT="0" SIGIS="undef" SIGNAME="ps8_0_axi_periph_S01_AXI_wstrb">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="zynq_ultra_ps_e_0" PORT="maxigp1_wstrb"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="S01_AXI_wlast" SIGIS="undef" SIGNAME="ps8_0_axi_periph_S01_AXI_wlast">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="zynq_ultra_ps_e_0" PORT="maxigp1_wlast"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="S01_AXI_wvalid" SIGIS="undef" SIGNAME="ps8_0_axi_periph_S01_AXI_wvalid">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="zynq_ultra_ps_e_0" PORT="maxigp1_wvalid"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="S01_AXI_wready" SIGIS="undef" SIGNAME="ps8_0_axi_periph_S01_AXI_wready">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="zynq_ultra_ps_e_0" PORT="maxigp1_wready"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" LEFT="15" NAME="S01_AXI_bid" RIGHT="0" SIGIS="undef" SIGNAME="ps8_0_axi_periph_S01_AXI_bid">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="zynq_ultra_ps_e_0" PORT="maxigp1_bid"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" LEFT="1" NAME="S01_AXI_bresp" RIGHT="0" SIGIS="undef" SIGNAME="ps8_0_axi_periph_S01_AXI_bresp">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="zynq_ultra_ps_e_0" PORT="maxigp1_bresp"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="S01_AXI_bvalid" SIGIS="undef" SIGNAME="ps8_0_axi_periph_S01_AXI_bvalid">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="zynq_ultra_ps_e_0" PORT="maxigp1_bvalid"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="S01_AXI_bready" SIGIS="undef" SIGNAME="ps8_0_axi_periph_S01_AXI_bready">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="zynq_ultra_ps_e_0" PORT="maxigp1_bready"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" LEFT="15" NAME="S01_AXI_arid" RIGHT="0" SIGIS="undef" SIGNAME="ps8_0_axi_periph_S01_AXI_arid">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="zynq_ultra_ps_e_0" PORT="maxigp1_arid"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" LEFT="39" NAME="S01_AXI_araddr" RIGHT="0" SIGIS="undef" SIGNAME="ps8_0_axi_periph_S01_AXI_araddr">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="zynq_ultra_ps_e_0" PORT="maxigp1_araddr"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" LEFT="7" NAME="S01_AXI_arlen" RIGHT="0" SIGIS="undef" SIGNAME="ps8_0_axi_periph_S01_AXI_arlen">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="zynq_ultra_ps_e_0" PORT="maxigp1_arlen"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" LEFT="2" NAME="S01_AXI_arsize" RIGHT="0" SIGIS="undef" SIGNAME="ps8_0_axi_periph_S01_AXI_arsize">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="zynq_ultra_ps_e_0" PORT="maxigp1_arsize"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" LEFT="1" NAME="S01_AXI_arburst" RIGHT="0" SIGIS="undef" SIGNAME="ps8_0_axi_periph_S01_AXI_arburst">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="zynq_ultra_ps_e_0" PORT="maxigp1_arburst"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" LEFT="0" NAME="S01_AXI_arlock" RIGHT="0" SIGIS="undef" SIGNAME="ps8_0_axi_periph_S01_AXI_arlock">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="zynq_ultra_ps_e_0" PORT="maxigp1_arlock"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" LEFT="3" NAME="S01_AXI_arcache" RIGHT="0" SIGIS="undef" SIGNAME="ps8_0_axi_periph_S01_AXI_arcache">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="zynq_ultra_ps_e_0" PORT="maxigp1_arcache"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" LEFT="2" NAME="S01_AXI_arprot" RIGHT="0" SIGIS="undef" SIGNAME="ps8_0_axi_periph_S01_AXI_arprot">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="zynq_ultra_ps_e_0" PORT="maxigp1_arprot"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="S01_AXI_arregion" SIGIS="undef"/>
+        <PORT DIR="I" LEFT="3" NAME="S01_AXI_arqos" RIGHT="0" SIGIS="undef" SIGNAME="ps8_0_axi_periph_S01_AXI_arqos">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="zynq_ultra_ps_e_0" PORT="maxigp1_arqos"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="S01_AXI_arvalid" SIGIS="undef" SIGNAME="ps8_0_axi_periph_S01_AXI_arvalid">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="zynq_ultra_ps_e_0" PORT="maxigp1_arvalid"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="S01_AXI_arready" SIGIS="undef" SIGNAME="ps8_0_axi_periph_S01_AXI_arready">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="zynq_ultra_ps_e_0" PORT="maxigp1_arready"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" LEFT="15" NAME="S01_AXI_rid" RIGHT="0" SIGIS="undef" SIGNAME="ps8_0_axi_periph_S01_AXI_rid">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="zynq_ultra_ps_e_0" PORT="maxigp1_rid"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" LEFT="127" NAME="S01_AXI_rdata" RIGHT="0" SIGIS="undef" SIGNAME="ps8_0_axi_periph_S01_AXI_rdata">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="zynq_ultra_ps_e_0" PORT="maxigp1_rdata"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" LEFT="1" NAME="S01_AXI_rresp" RIGHT="0" SIGIS="undef" SIGNAME="ps8_0_axi_periph_S01_AXI_rresp">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="zynq_ultra_ps_e_0" PORT="maxigp1_rresp"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="S01_AXI_rlast" SIGIS="undef" SIGNAME="ps8_0_axi_periph_S01_AXI_rlast">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="zynq_ultra_ps_e_0" PORT="maxigp1_rlast"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="S01_AXI_rvalid" SIGIS="undef" SIGNAME="ps8_0_axi_periph_S01_AXI_rvalid">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="zynq_ultra_ps_e_0" PORT="maxigp1_rvalid"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="S01_AXI_rready" SIGIS="undef" SIGNAME="ps8_0_axi_periph_S01_AXI_rready">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="zynq_ultra_ps_e_0" PORT="maxigp1_rready"/>
+          </CONNECTIONS>
+        </PORT>
         <PORT DIR="I" LEFT="15" NAME="S00_AXI_awid" RIGHT="0" SIGIS="undef" SIGNAME="ps8_0_axi_periph_S00_AXI_awid">
           <CONNECTIONS>
             <CONNECTION INSTANCE="zynq_ultra_ps_e_0" PORT="maxigp0_awid"/>
@@ -9015,176 +9202,6 @@
             <CONNECTION INSTANCE="zynq_ultra_ps_e_0" PORT="maxigp0_rready"/>
           </CONNECTIONS>
         </PORT>
-        <PORT DIR="O" LEFT="39" NAME="M01_AXI_awaddr" RIGHT="0" SIGIS="undef" SIGNAME="inst_s_axi_lite_awaddr">
-          <CONNECTIONS>
-            <CONNECTION INSTANCE="inst" PORT="s_axi_lite_awaddr"/>
-          </CONNECTIONS>
-        </PORT>
-        <PORT DIR="O" NAME="M01_AXI_awprot" SIGIS="undef"/>
-        <PORT DIR="O" NAME="M01_AXI_awvalid" SIGIS="undef" SIGNAME="inst_s_axi_lite_awvalid">
-          <CONNECTIONS>
-            <CONNECTION INSTANCE="inst" PORT="s_axi_lite_awvalid"/>
-          </CONNECTIONS>
-        </PORT>
-        <PORT DIR="I" NAME="M01_AXI_awready" SIGIS="undef" SIGNAME="inst_s_axi_lite_awready">
-          <CONNECTIONS>
-            <CONNECTION INSTANCE="inst" PORT="s_axi_lite_awready"/>
-          </CONNECTIONS>
-        </PORT>
-        <PORT DIR="O" LEFT="31" NAME="M01_AXI_wdata" RIGHT="0" SIGIS="undef" SIGNAME="inst_s_axi_lite_wdata">
-          <CONNECTIONS>
-            <CONNECTION INSTANCE="inst" PORT="s_axi_lite_wdata"/>
-          </CONNECTIONS>
-        </PORT>
-        <PORT DIR="O" NAME="M01_AXI_wstrb" SIGIS="undef"/>
-        <PORT DIR="O" NAME="M01_AXI_wvalid" SIGIS="undef" SIGNAME="inst_s_axi_lite_wvalid">
-          <CONNECTIONS>
-            <CONNECTION INSTANCE="inst" PORT="s_axi_lite_wvalid"/>
-          </CONNECTIONS>
-        </PORT>
-        <PORT DIR="I" NAME="M01_AXI_wready" SIGIS="undef" SIGNAME="inst_s_axi_lite_wready">
-          <CONNECTIONS>
-            <CONNECTION INSTANCE="inst" PORT="s_axi_lite_wready"/>
-          </CONNECTIONS>
-        </PORT>
-        <PORT DIR="I" LEFT="1" NAME="M01_AXI_bresp" RIGHT="0" SIGIS="undef" SIGNAME="inst_s_axi_lite_bresp">
-          <CONNECTIONS>
-            <CONNECTION INSTANCE="inst" PORT="s_axi_lite_bresp"/>
-          </CONNECTIONS>
-        </PORT>
-        <PORT DIR="I" NAME="M01_AXI_bvalid" SIGIS="undef" SIGNAME="inst_s_axi_lite_bvalid">
-          <CONNECTIONS>
-            <CONNECTION INSTANCE="inst" PORT="s_axi_lite_bvalid"/>
-          </CONNECTIONS>
-        </PORT>
-        <PORT DIR="O" NAME="M01_AXI_bready" SIGIS="undef" SIGNAME="inst_s_axi_lite_bready">
-          <CONNECTIONS>
-            <CONNECTION INSTANCE="inst" PORT="s_axi_lite_bready"/>
-          </CONNECTIONS>
-        </PORT>
-        <PORT DIR="O" LEFT="39" NAME="M01_AXI_araddr" RIGHT="0" SIGIS="undef" SIGNAME="inst_s_axi_lite_araddr">
-          <CONNECTIONS>
-            <CONNECTION INSTANCE="inst" PORT="s_axi_lite_araddr"/>
-          </CONNECTIONS>
-        </PORT>
-        <PORT DIR="O" NAME="M01_AXI_arprot" SIGIS="undef"/>
-        <PORT DIR="O" NAME="M01_AXI_arvalid" SIGIS="undef" SIGNAME="inst_s_axi_lite_arvalid">
-          <CONNECTIONS>
-            <CONNECTION INSTANCE="inst" PORT="s_axi_lite_arvalid"/>
-          </CONNECTIONS>
-        </PORT>
-        <PORT DIR="I" NAME="M01_AXI_arready" SIGIS="undef" SIGNAME="inst_s_axi_lite_arready">
-          <CONNECTIONS>
-            <CONNECTION INSTANCE="inst" PORT="s_axi_lite_arready"/>
-          </CONNECTIONS>
-        </PORT>
-        <PORT DIR="I" LEFT="31" NAME="M01_AXI_rdata" RIGHT="0" SIGIS="undef" SIGNAME="inst_s_axi_lite_rdata">
-          <CONNECTIONS>
-            <CONNECTION INSTANCE="inst" PORT="s_axi_lite_rdata"/>
-          </CONNECTIONS>
-        </PORT>
-        <PORT DIR="I" LEFT="1" NAME="M01_AXI_rresp" RIGHT="0" SIGIS="undef" SIGNAME="inst_s_axi_lite_rresp">
-          <CONNECTIONS>
-            <CONNECTION INSTANCE="inst" PORT="s_axi_lite_rresp"/>
-          </CONNECTIONS>
-        </PORT>
-        <PORT DIR="I" NAME="M01_AXI_rvalid" SIGIS="undef" SIGNAME="inst_s_axi_lite_rvalid">
-          <CONNECTIONS>
-            <CONNECTION INSTANCE="inst" PORT="s_axi_lite_rvalid"/>
-          </CONNECTIONS>
-        </PORT>
-        <PORT DIR="O" NAME="M01_AXI_rready" SIGIS="undef" SIGNAME="inst_s_axi_lite_rready">
-          <CONNECTIONS>
-            <CONNECTION INSTANCE="inst" PORT="s_axi_lite_rready"/>
-          </CONNECTIONS>
-        </PORT>
-        <PORT DIR="O" LEFT="39" NAME="M02_AXI_awaddr" RIGHT="0" SIGIS="undef" SIGNAME="ps8_0_axi_periph_M02_AXI_awaddr">
-          <CONNECTIONS>
-            <CONNECTION INSTANCE="wasabi" PORT="s_axi_AXILiteS_AWADDR"/>
-          </CONNECTIONS>
-        </PORT>
-        <PORT DIR="O" NAME="M02_AXI_awprot" SIGIS="undef"/>
-        <PORT DIR="O" LEFT="0" NAME="M02_AXI_awvalid" RIGHT="0" SIGIS="undef" SIGNAME="ps8_0_axi_periph_M02_AXI_awvalid">
-          <CONNECTIONS>
-            <CONNECTION INSTANCE="wasabi" PORT="s_axi_AXILiteS_AWVALID"/>
-          </CONNECTIONS>
-        </PORT>
-        <PORT DIR="I" LEFT="0" NAME="M02_AXI_awready" RIGHT="0" SIGIS="undef" SIGNAME="ps8_0_axi_periph_M02_AXI_awready">
-          <CONNECTIONS>
-            <CONNECTION INSTANCE="wasabi" PORT="s_axi_AXILiteS_AWREADY"/>
-          </CONNECTIONS>
-        </PORT>
-        <PORT DIR="O" LEFT="31" NAME="M02_AXI_wdata" RIGHT="0" SIGIS="undef" SIGNAME="ps8_0_axi_periph_M02_AXI_wdata">
-          <CONNECTIONS>
-            <CONNECTION INSTANCE="wasabi" PORT="s_axi_AXILiteS_WDATA"/>
-          </CONNECTIONS>
-        </PORT>
-        <PORT DIR="O" LEFT="3" NAME="M02_AXI_wstrb" RIGHT="0" SIGIS="undef" SIGNAME="ps8_0_axi_periph_M02_AXI_wstrb">
-          <CONNECTIONS>
-            <CONNECTION INSTANCE="wasabi" PORT="s_axi_AXILiteS_WSTRB"/>
-          </CONNECTIONS>
-        </PORT>
-        <PORT DIR="O" LEFT="0" NAME="M02_AXI_wvalid" RIGHT="0" SIGIS="undef" SIGNAME="ps8_0_axi_periph_M02_AXI_wvalid">
-          <CONNECTIONS>
-            <CONNECTION INSTANCE="wasabi" PORT="s_axi_AXILiteS_WVALID"/>
-          </CONNECTIONS>
-        </PORT>
-        <PORT DIR="I" LEFT="0" NAME="M02_AXI_wready" RIGHT="0" SIGIS="undef" SIGNAME="ps8_0_axi_periph_M02_AXI_wready">
-          <CONNECTIONS>
-            <CONNECTION INSTANCE="wasabi" PORT="s_axi_AXILiteS_WREADY"/>
-          </CONNECTIONS>
-        </PORT>
-        <PORT DIR="I" LEFT="1" NAME="M02_AXI_bresp" RIGHT="0" SIGIS="undef" SIGNAME="ps8_0_axi_periph_M02_AXI_bresp">
-          <CONNECTIONS>
-            <CONNECTION INSTANCE="wasabi" PORT="s_axi_AXILiteS_BRESP"/>
-          </CONNECTIONS>
-        </PORT>
-        <PORT DIR="I" LEFT="0" NAME="M02_AXI_bvalid" RIGHT="0" SIGIS="undef" SIGNAME="ps8_0_axi_periph_M02_AXI_bvalid">
-          <CONNECTIONS>
-            <CONNECTION INSTANCE="wasabi" PORT="s_axi_AXILiteS_BVALID"/>
-          </CONNECTIONS>
-        </PORT>
-        <PORT DIR="O" LEFT="0" NAME="M02_AXI_bready" RIGHT="0" SIGIS="undef" SIGNAME="ps8_0_axi_periph_M02_AXI_bready">
-          <CONNECTIONS>
-            <CONNECTION INSTANCE="wasabi" PORT="s_axi_AXILiteS_BREADY"/>
-          </CONNECTIONS>
-        </PORT>
-        <PORT DIR="O" LEFT="39" NAME="M02_AXI_araddr" RIGHT="0" SIGIS="undef" SIGNAME="ps8_0_axi_periph_M02_AXI_araddr">
-          <CONNECTIONS>
-            <CONNECTION INSTANCE="wasabi" PORT="s_axi_AXILiteS_ARADDR"/>
-          </CONNECTIONS>
-        </PORT>
-        <PORT DIR="O" NAME="M02_AXI_arprot" SIGIS="undef"/>
-        <PORT DIR="O" LEFT="0" NAME="M02_AXI_arvalid" RIGHT="0" SIGIS="undef" SIGNAME="ps8_0_axi_periph_M02_AXI_arvalid">
-          <CONNECTIONS>
-            <CONNECTION INSTANCE="wasabi" PORT="s_axi_AXILiteS_ARVALID"/>
-          </CONNECTIONS>
-        </PORT>
-        <PORT DIR="I" LEFT="0" NAME="M02_AXI_arready" RIGHT="0" SIGIS="undef" SIGNAME="ps8_0_axi_periph_M02_AXI_arready">
-          <CONNECTIONS>
-            <CONNECTION INSTANCE="wasabi" PORT="s_axi_AXILiteS_ARREADY"/>
-          </CONNECTIONS>
-        </PORT>
-        <PORT DIR="I" LEFT="31" NAME="M02_AXI_rdata" RIGHT="0" SIGIS="undef" SIGNAME="ps8_0_axi_periph_M02_AXI_rdata">
-          <CONNECTIONS>
-            <CONNECTION INSTANCE="wasabi" PORT="s_axi_AXILiteS_RDATA"/>
-          </CONNECTIONS>
-        </PORT>
-        <PORT DIR="I" LEFT="1" NAME="M02_AXI_rresp" RIGHT="0" SIGIS="undef" SIGNAME="ps8_0_axi_periph_M02_AXI_rresp">
-          <CONNECTIONS>
-            <CONNECTION INSTANCE="wasabi" PORT="s_axi_AXILiteS_RRESP"/>
-          </CONNECTIONS>
-        </PORT>
-        <PORT DIR="I" LEFT="0" NAME="M02_AXI_rvalid" RIGHT="0" SIGIS="undef" SIGNAME="ps8_0_axi_periph_M02_AXI_rvalid">
-          <CONNECTIONS>
-            <CONNECTION INSTANCE="wasabi" PORT="s_axi_AXILiteS_RVALID"/>
-          </CONNECTIONS>
-        </PORT>
-        <PORT DIR="O" LEFT="0" NAME="M02_AXI_rready" RIGHT="0" SIGIS="undef" SIGNAME="ps8_0_axi_periph_M02_AXI_rready">
-          <CONNECTIONS>
-            <CONNECTION INSTANCE="wasabi" PORT="s_axi_AXILiteS_RREADY"/>
-          </CONNECTIONS>
-        </PORT>
         <PORT DIR="O" LEFT="39" NAME="M03_AXI_awaddr" RIGHT="0" SIGIS="undef" SIGNAME="data_s_axi_lite_awaddr">
           <CONNECTIONS>
             <CONNECTION INSTANCE="data" PORT="s_axi_lite_awaddr"/>
@@ -9268,191 +9285,174 @@
             <CONNECTION INSTANCE="data" PORT="s_axi_lite_rready"/>
           </CONNECTIONS>
         </PORT>
-        <PORT DIR="I" LEFT="15" NAME="S01_AXI_awid" RIGHT="0" SIGIS="undef" SIGNAME="ps8_0_axi_periph_S01_AXI_awid">
+        <PORT DIR="O" LEFT="39" NAME="M02_AXI_awaddr" RIGHT="0" SIGIS="undef" SIGNAME="ps8_0_axi_periph_M02_AXI_awaddr">
           <CONNECTIONS>
-            <CONNECTION INSTANCE="zynq_ultra_ps_e_0" PORT="maxigp1_awid"/>
+            <CONNECTION INSTANCE="wasabi" PORT="s_axi_AXILiteS_AWADDR"/>
           </CONNECTIONS>
         </PORT>
-        <PORT DIR="I" LEFT="39" NAME="S01_AXI_awaddr" RIGHT="0" SIGIS="undef" SIGNAME="ps8_0_axi_periph_S01_AXI_awaddr">
+        <PORT DIR="O" NAME="M02_AXI_awprot" SIGIS="undef"/>
+        <PORT DIR="O" NAME="M02_AXI_awvalid" SIGIS="undef" SIGNAME="ps8_0_axi_periph_M02_AXI_awvalid">
           <CONNECTIONS>
-            <CONNECTION INSTANCE="zynq_ultra_ps_e_0" PORT="maxigp1_awaddr"/>
+            <CONNECTION INSTANCE="wasabi" PORT="s_axi_AXILiteS_AWVALID"/>
           </CONNECTIONS>
         </PORT>
-        <PORT DIR="I" LEFT="7" NAME="S01_AXI_awlen" RIGHT="0" SIGIS="undef" SIGNAME="ps8_0_axi_periph_S01_AXI_awlen">
+        <PORT DIR="I" NAME="M02_AXI_awready" SIGIS="undef" SIGNAME="ps8_0_axi_periph_M02_AXI_awready">
           <CONNECTIONS>
-            <CONNECTION INSTANCE="zynq_ultra_ps_e_0" PORT="maxigp1_awlen"/>
+            <CONNECTION INSTANCE="wasabi" PORT="s_axi_AXILiteS_AWREADY"/>
           </CONNECTIONS>
         </PORT>
-        <PORT DIR="I" LEFT="2" NAME="S01_AXI_awsize" RIGHT="0" SIGIS="undef" SIGNAME="ps8_0_axi_periph_S01_AXI_awsize">
+        <PORT DIR="O" LEFT="31" NAME="M02_AXI_wdata" RIGHT="0" SIGIS="undef" SIGNAME="ps8_0_axi_periph_M02_AXI_wdata">
           <CONNECTIONS>
-            <CONNECTION INSTANCE="zynq_ultra_ps_e_0" PORT="maxigp1_awsize"/>
+            <CONNECTION INSTANCE="wasabi" PORT="s_axi_AXILiteS_WDATA"/>
           </CONNECTIONS>
         </PORT>
-        <PORT DIR="I" LEFT="1" NAME="S01_AXI_awburst" RIGHT="0" SIGIS="undef" SIGNAME="ps8_0_axi_periph_S01_AXI_awburst">
+        <PORT DIR="O" LEFT="3" NAME="M02_AXI_wstrb" RIGHT="0" SIGIS="undef" SIGNAME="ps8_0_axi_periph_M02_AXI_wstrb">
           <CONNECTIONS>
-            <CONNECTION INSTANCE="zynq_ultra_ps_e_0" PORT="maxigp1_awburst"/>
+            <CONNECTION INSTANCE="wasabi" PORT="s_axi_AXILiteS_WSTRB"/>
           </CONNECTIONS>
         </PORT>
-        <PORT DIR="I" LEFT="0" NAME="S01_AXI_awlock" RIGHT="0" SIGIS="undef" SIGNAME="ps8_0_axi_periph_S01_AXI_awlock">
+        <PORT DIR="O" NAME="M02_AXI_wvalid" SIGIS="undef" SIGNAME="ps8_0_axi_periph_M02_AXI_wvalid">
           <CONNECTIONS>
-            <CONNECTION INSTANCE="zynq_ultra_ps_e_0" PORT="maxigp1_awlock"/>
+            <CONNECTION INSTANCE="wasabi" PORT="s_axi_AXILiteS_WVALID"/>
           </CONNECTIONS>
         </PORT>
-        <PORT DIR="I" LEFT="3" NAME="S01_AXI_awcache" RIGHT="0" SIGIS="undef" SIGNAME="ps8_0_axi_periph_S01_AXI_awcache">
+        <PORT DIR="I" NAME="M02_AXI_wready" SIGIS="undef" SIGNAME="ps8_0_axi_periph_M02_AXI_wready">
           <CONNECTIONS>
-            <CONNECTION INSTANCE="zynq_ultra_ps_e_0" PORT="maxigp1_awcache"/>
+            <CONNECTION INSTANCE="wasabi" PORT="s_axi_AXILiteS_WREADY"/>
           </CONNECTIONS>
         </PORT>
-        <PORT DIR="I" LEFT="2" NAME="S01_AXI_awprot" RIGHT="0" SIGIS="undef" SIGNAME="ps8_0_axi_periph_S01_AXI_awprot">
+        <PORT DIR="I" LEFT="1" NAME="M02_AXI_bresp" RIGHT="0" SIGIS="undef" SIGNAME="ps8_0_axi_periph_M02_AXI_bresp">
           <CONNECTIONS>
-            <CONNECTION INSTANCE="zynq_ultra_ps_e_0" PORT="maxigp1_awprot"/>
+            <CONNECTION INSTANCE="wasabi" PORT="s_axi_AXILiteS_BRESP"/>
           </CONNECTIONS>
         </PORT>
-        <PORT DIR="I" NAME="S01_AXI_awregion" SIGIS="undef"/>
-        <PORT DIR="I" LEFT="3" NAME="S01_AXI_awqos" RIGHT="0" SIGIS="undef" SIGNAME="ps8_0_axi_periph_S01_AXI_awqos">
+        <PORT DIR="I" NAME="M02_AXI_bvalid" SIGIS="undef" SIGNAME="ps8_0_axi_periph_M02_AXI_bvalid">
           <CONNECTIONS>
-            <CONNECTION INSTANCE="zynq_ultra_ps_e_0" PORT="maxigp1_awqos"/>
+            <CONNECTION INSTANCE="wasabi" PORT="s_axi_AXILiteS_BVALID"/>
           </CONNECTIONS>
         </PORT>
-        <PORT DIR="I" NAME="S01_AXI_awvalid" SIGIS="undef" SIGNAME="ps8_0_axi_periph_S01_AXI_awvalid">
+        <PORT DIR="O" NAME="M02_AXI_bready" SIGIS="undef" SIGNAME="ps8_0_axi_periph_M02_AXI_bready">
           <CONNECTIONS>
-            <CONNECTION INSTANCE="zynq_ultra_ps_e_0" PORT="maxigp1_awvalid"/>
+            <CONNECTION INSTANCE="wasabi" PORT="s_axi_AXILiteS_BREADY"/>
           </CONNECTIONS>
         </PORT>
-        <PORT DIR="O" NAME="S01_AXI_awready" SIGIS="undef" SIGNAME="ps8_0_axi_periph_S01_AXI_awready">
+        <PORT DIR="O" LEFT="39" NAME="M02_AXI_araddr" RIGHT="0" SIGIS="undef" SIGNAME="ps8_0_axi_periph_M02_AXI_araddr">
           <CONNECTIONS>
-            <CONNECTION INSTANCE="zynq_ultra_ps_e_0" PORT="maxigp1_awready"/>
+            <CONNECTION INSTANCE="wasabi" PORT="s_axi_AXILiteS_ARADDR"/>
           </CONNECTIONS>
         </PORT>
-        <PORT DIR="I" LEFT="127" NAME="S01_AXI_wdata" RIGHT="0" SIGIS="undef" SIGNAME="ps8_0_axi_periph_S01_AXI_wdata">
+        <PORT DIR="O" NAME="M02_AXI_arprot" SIGIS="undef"/>
+        <PORT DIR="O" NAME="M02_AXI_arvalid" SIGIS="undef" SIGNAME="ps8_0_axi_periph_M02_AXI_arvalid">
           <CONNECTIONS>
-            <CONNECTION INSTANCE="zynq_ultra_ps_e_0" PORT="maxigp1_wdata"/>
+            <CONNECTION INSTANCE="wasabi" PORT="s_axi_AXILiteS_ARVALID"/>
           </CONNECTIONS>
         </PORT>
-        <PORT DIR="I" LEFT="15" NAME="S01_AXI_wstrb" RIGHT="0" SIGIS="undef" SIGNAME="ps8_0_axi_periph_S01_AXI_wstrb">
+        <PORT DIR="I" NAME="M02_AXI_arready" SIGIS="undef" SIGNAME="ps8_0_axi_periph_M02_AXI_arready">
           <CONNECTIONS>
-            <CONNECTION INSTANCE="zynq_ultra_ps_e_0" PORT="maxigp1_wstrb"/>
+            <CONNECTION INSTANCE="wasabi" PORT="s_axi_AXILiteS_ARREADY"/>
           </CONNECTIONS>
         </PORT>
-        <PORT DIR="I" NAME="S01_AXI_wlast" SIGIS="undef" SIGNAME="ps8_0_axi_periph_S01_AXI_wlast">
+        <PORT DIR="I" LEFT="31" NAME="M02_AXI_rdata" RIGHT="0" SIGIS="undef" SIGNAME="ps8_0_axi_periph_M02_AXI_rdata">
           <CONNECTIONS>
-            <CONNECTION INSTANCE="zynq_ultra_ps_e_0" PORT="maxigp1_wlast"/>
+            <CONNECTION INSTANCE="wasabi" PORT="s_axi_AXILiteS_RDATA"/>
           </CONNECTIONS>
         </PORT>
-        <PORT DIR="I" NAME="S01_AXI_wvalid" SIGIS="undef" SIGNAME="ps8_0_axi_periph_S01_AXI_wvalid">
+        <PORT DIR="I" LEFT="1" NAME="M02_AXI_rresp" RIGHT="0" SIGIS="undef" SIGNAME="ps8_0_axi_periph_M02_AXI_rresp">
           <CONNECTIONS>
-            <CONNECTION INSTANCE="zynq_ultra_ps_e_0" PORT="maxigp1_wvalid"/>
+            <CONNECTION INSTANCE="wasabi" PORT="s_axi_AXILiteS_RRESP"/>
           </CONNECTIONS>
         </PORT>
-        <PORT DIR="O" NAME="S01_AXI_wready" SIGIS="undef" SIGNAME="ps8_0_axi_periph_S01_AXI_wready">
+        <PORT DIR="I" NAME="M02_AXI_rvalid" SIGIS="undef" SIGNAME="ps8_0_axi_periph_M02_AXI_rvalid">
           <CONNECTIONS>
-            <CONNECTION INSTANCE="zynq_ultra_ps_e_0" PORT="maxigp1_wready"/>
+            <CONNECTION INSTANCE="wasabi" PORT="s_axi_AXILiteS_RVALID"/>
           </CONNECTIONS>
         </PORT>
-        <PORT DIR="O" LEFT="15" NAME="S01_AXI_bid" RIGHT="0" SIGIS="undef" SIGNAME="ps8_0_axi_periph_S01_AXI_bid">
+        <PORT DIR="O" NAME="M02_AXI_rready" SIGIS="undef" SIGNAME="ps8_0_axi_periph_M02_AXI_rready">
           <CONNECTIONS>
-            <CONNECTION INSTANCE="zynq_ultra_ps_e_0" PORT="maxigp1_bid"/>
+            <CONNECTION INSTANCE="wasabi" PORT="s_axi_AXILiteS_RREADY"/>
           </CONNECTIONS>
         </PORT>
-        <PORT DIR="O" LEFT="1" NAME="S01_AXI_bresp" RIGHT="0" SIGIS="undef" SIGNAME="ps8_0_axi_periph_S01_AXI_bresp">
+        <PORT DIR="O" LEFT="39" NAME="M01_AXI_awaddr" RIGHT="0" SIGIS="undef" SIGNAME="inst_s_axi_lite_awaddr">
           <CONNECTIONS>
-            <CONNECTION INSTANCE="zynq_ultra_ps_e_0" PORT="maxigp1_bresp"/>
+            <CONNECTION INSTANCE="inst" PORT="s_axi_lite_awaddr"/>
           </CONNECTIONS>
         </PORT>
-        <PORT DIR="O" NAME="S01_AXI_bvalid" SIGIS="undef" SIGNAME="ps8_0_axi_periph_S01_AXI_bvalid">
+        <PORT DIR="O" NAME="M01_AXI_awprot" SIGIS="undef"/>
+        <PORT DIR="O" NAME="M01_AXI_awvalid" SIGIS="undef" SIGNAME="inst_s_axi_lite_awvalid">
           <CONNECTIONS>
-            <CONNECTION INSTANCE="zynq_ultra_ps_e_0" PORT="maxigp1_bvalid"/>
+            <CONNECTION INSTANCE="inst" PORT="s_axi_lite_awvalid"/>
           </CONNECTIONS>
         </PORT>
-        <PORT DIR="I" NAME="S01_AXI_bready" SIGIS="undef" SIGNAME="ps8_0_axi_periph_S01_AXI_bready">
+        <PORT DIR="I" NAME="M01_AXI_awready" SIGIS="undef" SIGNAME="inst_s_axi_lite_awready">
           <CONNECTIONS>
-            <CONNECTION INSTANCE="zynq_ultra_ps_e_0" PORT="maxigp1_bready"/>
+            <CONNECTION INSTANCE="inst" PORT="s_axi_lite_awready"/>
           </CONNECTIONS>
         </PORT>
-        <PORT DIR="I" LEFT="15" NAME="S01_AXI_arid" RIGHT="0" SIGIS="undef" SIGNAME="ps8_0_axi_periph_S01_AXI_arid">
+        <PORT DIR="O" LEFT="31" NAME="M01_AXI_wdata" RIGHT="0" SIGIS="undef" SIGNAME="inst_s_axi_lite_wdata">
           <CONNECTIONS>
-            <CONNECTION INSTANCE="zynq_ultra_ps_e_0" PORT="maxigp1_arid"/>
+            <CONNECTION INSTANCE="inst" PORT="s_axi_lite_wdata"/>
           </CONNECTIONS>
         </PORT>
-        <PORT DIR="I" LEFT="39" NAME="S01_AXI_araddr" RIGHT="0" SIGIS="undef" SIGNAME="ps8_0_axi_periph_S01_AXI_araddr">
+        <PORT DIR="O" NAME="M01_AXI_wstrb" SIGIS="undef"/>
+        <PORT DIR="O" NAME="M01_AXI_wvalid" SIGIS="undef" SIGNAME="inst_s_axi_lite_wvalid">
           <CONNECTIONS>
-            <CONNECTION INSTANCE="zynq_ultra_ps_e_0" PORT="maxigp1_araddr"/>
+            <CONNECTION INSTANCE="inst" PORT="s_axi_lite_wvalid"/>
           </CONNECTIONS>
         </PORT>
-        <PORT DIR="I" LEFT="7" NAME="S01_AXI_arlen" RIGHT="0" SIGIS="undef" SIGNAME="ps8_0_axi_periph_S01_AXI_arlen">
+        <PORT DIR="I" NAME="M01_AXI_wready" SIGIS="undef" SIGNAME="inst_s_axi_lite_wready">
           <CONNECTIONS>
-            <CONNECTION INSTANCE="zynq_ultra_ps_e_0" PORT="maxigp1_arlen"/>
+            <CONNECTION INSTANCE="inst" PORT="s_axi_lite_wready"/>
           </CONNECTIONS>
         </PORT>
-        <PORT DIR="I" LEFT="2" NAME="S01_AXI_arsize" RIGHT="0" SIGIS="undef" SIGNAME="ps8_0_axi_periph_S01_AXI_arsize">
+        <PORT DIR="I" LEFT="1" NAME="M01_AXI_bresp" RIGHT="0" SIGIS="undef" SIGNAME="inst_s_axi_lite_bresp">
           <CONNECTIONS>
-            <CONNECTION INSTANCE="zynq_ultra_ps_e_0" PORT="maxigp1_arsize"/>
+            <CONNECTION INSTANCE="inst" PORT="s_axi_lite_bresp"/>
           </CONNECTIONS>
         </PORT>
-        <PORT DIR="I" LEFT="1" NAME="S01_AXI_arburst" RIGHT="0" SIGIS="undef" SIGNAME="ps8_0_axi_periph_S01_AXI_arburst">
+        <PORT DIR="I" NAME="M01_AXI_bvalid" SIGIS="undef" SIGNAME="inst_s_axi_lite_bvalid">
           <CONNECTIONS>
-            <CONNECTION INSTANCE="zynq_ultra_ps_e_0" PORT="maxigp1_arburst"/>
+            <CONNECTION INSTANCE="inst" PORT="s_axi_lite_bvalid"/>
           </CONNECTIONS>
         </PORT>
-        <PORT DIR="I" LEFT="0" NAME="S01_AXI_arlock" RIGHT="0" SIGIS="undef" SIGNAME="ps8_0_axi_periph_S01_AXI_arlock">
+        <PORT DIR="O" NAME="M01_AXI_bready" SIGIS="undef" SIGNAME="inst_s_axi_lite_bready">
           <CONNECTIONS>
-            <CONNECTION INSTANCE="zynq_ultra_ps_e_0" PORT="maxigp1_arlock"/>
+            <CONNECTION INSTANCE="inst" PORT="s_axi_lite_bready"/>
           </CONNECTIONS>
         </PORT>
-        <PORT DIR="I" LEFT="3" NAME="S01_AXI_arcache" RIGHT="0" SIGIS="undef" SIGNAME="ps8_0_axi_periph_S01_AXI_arcache">
+        <PORT DIR="O" LEFT="39" NAME="M01_AXI_araddr" RIGHT="0" SIGIS="undef" SIGNAME="inst_s_axi_lite_araddr">
           <CONNECTIONS>
-            <CONNECTION INSTANCE="zynq_ultra_ps_e_0" PORT="maxigp1_arcache"/>
+            <CONNECTION INSTANCE="inst" PORT="s_axi_lite_araddr"/>
           </CONNECTIONS>
         </PORT>
-        <PORT DIR="I" LEFT="2" NAME="S01_AXI_arprot" RIGHT="0" SIGIS="undef" SIGNAME="ps8_0_axi_periph_S01_AXI_arprot">
+        <PORT DIR="O" NAME="M01_AXI_arprot" SIGIS="undef"/>
+        <PORT DIR="O" NAME="M01_AXI_arvalid" SIGIS="undef" SIGNAME="inst_s_axi_lite_arvalid">
           <CONNECTIONS>
-            <CONNECTION INSTANCE="zynq_ultra_ps_e_0" PORT="maxigp1_arprot"/>
+            <CONNECTION INSTANCE="inst" PORT="s_axi_lite_arvalid"/>
           </CONNECTIONS>
         </PORT>
-        <PORT DIR="I" NAME="S01_AXI_arregion" SIGIS="undef"/>
-        <PORT DIR="I" LEFT="3" NAME="S01_AXI_arqos" RIGHT="0" SIGIS="undef" SIGNAME="ps8_0_axi_periph_S01_AXI_arqos">
+        <PORT DIR="I" NAME="M01_AXI_arready" SIGIS="undef" SIGNAME="inst_s_axi_lite_arready">
           <CONNECTIONS>
-            <CONNECTION INSTANCE="zynq_ultra_ps_e_0" PORT="maxigp1_arqos"/>
+            <CONNECTION INSTANCE="inst" PORT="s_axi_lite_arready"/>
           </CONNECTIONS>
         </PORT>
-        <PORT DIR="I" NAME="S01_AXI_arvalid" SIGIS="undef" SIGNAME="ps8_0_axi_periph_S01_AXI_arvalid">
+        <PORT DIR="I" LEFT="31" NAME="M01_AXI_rdata" RIGHT="0" SIGIS="undef" SIGNAME="inst_s_axi_lite_rdata">
           <CONNECTIONS>
-            <CONNECTION INSTANCE="zynq_ultra_ps_e_0" PORT="maxigp1_arvalid"/>
+            <CONNECTION INSTANCE="inst" PORT="s_axi_lite_rdata"/>
           </CONNECTIONS>
         </PORT>
-        <PORT DIR="O" NAME="S01_AXI_arready" SIGIS="undef" SIGNAME="ps8_0_axi_periph_S01_AXI_arready">
+        <PORT DIR="I" LEFT="1" NAME="M01_AXI_rresp" RIGHT="0" SIGIS="undef" SIGNAME="inst_s_axi_lite_rresp">
           <CONNECTIONS>
-            <CONNECTION INSTANCE="zynq_ultra_ps_e_0" PORT="maxigp1_arready"/>
+            <CONNECTION INSTANCE="inst" PORT="s_axi_lite_rresp"/>
           </CONNECTIONS>
         </PORT>
-        <PORT DIR="O" LEFT="15" NAME="S01_AXI_rid" RIGHT="0" SIGIS="undef" SIGNAME="ps8_0_axi_periph_S01_AXI_rid">
+        <PORT DIR="I" NAME="M01_AXI_rvalid" SIGIS="undef" SIGNAME="inst_s_axi_lite_rvalid">
           <CONNECTIONS>
-            <CONNECTION INSTANCE="zynq_ultra_ps_e_0" PORT="maxigp1_rid"/>
+            <CONNECTION INSTANCE="inst" PORT="s_axi_lite_rvalid"/>
           </CONNECTIONS>
         </PORT>
-        <PORT DIR="O" LEFT="127" NAME="S01_AXI_rdata" RIGHT="0" SIGIS="undef" SIGNAME="ps8_0_axi_periph_S01_AXI_rdata">
+        <PORT DIR="O" NAME="M01_AXI_rready" SIGIS="undef" SIGNAME="inst_s_axi_lite_rready">
           <CONNECTIONS>
-            <CONNECTION INSTANCE="zynq_ultra_ps_e_0" PORT="maxigp1_rdata"/>
-          </CONNECTIONS>
-        </PORT>
-        <PORT DIR="O" LEFT="1" NAME="S01_AXI_rresp" RIGHT="0" SIGIS="undef" SIGNAME="ps8_0_axi_periph_S01_AXI_rresp">
-          <CONNECTIONS>
-            <CONNECTION INSTANCE="zynq_ultra_ps_e_0" PORT="maxigp1_rresp"/>
-          </CONNECTIONS>
-        </PORT>
-        <PORT DIR="O" NAME="S01_AXI_rlast" SIGIS="undef" SIGNAME="ps8_0_axi_periph_S01_AXI_rlast">
-          <CONNECTIONS>
-            <CONNECTION INSTANCE="zynq_ultra_ps_e_0" PORT="maxigp1_rlast"/>
-          </CONNECTIONS>
-        </PORT>
-        <PORT DIR="O" NAME="S01_AXI_rvalid" SIGIS="undef" SIGNAME="ps8_0_axi_periph_S01_AXI_rvalid">
-          <CONNECTIONS>
-            <CONNECTION INSTANCE="zynq_ultra_ps_e_0" PORT="maxigp1_rvalid"/>
-          </CONNECTIONS>
-        </PORT>
-        <PORT DIR="I" NAME="S01_AXI_rready" SIGIS="undef" SIGNAME="ps8_0_axi_periph_S01_AXI_rready">
-          <CONNECTIONS>
-            <CONNECTION INSTANCE="zynq_ultra_ps_e_0" PORT="maxigp1_rready"/>
+            <CONNECTION INSTANCE="inst" PORT="s_axi_lite_rready"/>
           </CONNECTIONS>
         </PORT>
         <PORT DIR="O" LEFT="39" NAME="M00_AXI_awaddr" RIGHT="0" SIGIS="undef" SIGNAME="activations_s_axi_lite_awaddr">
@@ -9740,7 +9740,7 @@
         <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
       </PARAMETERS>
       <PORTS>
-        <PORT CLKFREQUENCY="299970032" DIR="I" NAME="slowest_sync_clk" SIGIS="clk" SIGNAME="zynq_ultra_ps_e_0_pl_clk0">
+        <PORT CLKFREQUENCY="187500000" DIR="I" NAME="slowest_sync_clk" SIGIS="clk" SIGNAME="zynq_ultra_ps_e_0_pl_clk0">
           <CONNECTIONS>
             <CONNECTION INSTANCE="zynq_ultra_ps_e_0" PORT="pl_clk0"/>
           </CONNECTIONS>
@@ -9776,7 +9776,7 @@
       </PORTS>
       <BUSINTERFACES/>
     </MODULE>
-    <MODULE COREREVISION="2010010459" FULLNAME="/wasabi" HWVERSION="1.0" INSTANCE="wasabi" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="wasabi" VLNV="xilinx.com:hls:wasabi:1.0">
+    <MODULE COREREVISION="2010211709" FULLNAME="/wasabi" HWVERSION="1.0" INSTANCE="wasabi" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="wasabi" VLNV="xilinx.com:hls:wasabi:1.0">
       <DOCUMENTS/>
       <ADDRESSBLOCKS>
         <ADDRESSBLOCK ACCESS="read-write" INTERFACE="s_axi_AXILiteS" NAME="Reg" RANGE="65536" USAGE="register">
@@ -9978,7 +9978,7 @@
         <PARAMETER NAME="C_S_AXI_AXILITES_ADDR_WIDTH" VALUE="4"/>
         <PARAMETER NAME="C_S_AXI_AXILITES_DATA_WIDTH" VALUE="32"/>
         <PARAMETER NAME="Component_Name" VALUE="design_1_wasabi_0_2"/>
-        <PARAMETER NAME="clk_period" VALUE="2.9"/>
+        <PARAMETER NAME="clk_period" VALUE="2"/>
         <PARAMETER NAME="machine" VALUE="64"/>
         <PARAMETER NAME="combinational" VALUE="0"/>
         <PARAMETER NAME="latency" VALUE="undef"/>
@@ -10313,7 +10313,7 @@
             <CONNECTION INSTANCE="ps8_0_axi_periph" PORT="M02_AXI_rready"/>
           </CONNECTIONS>
         </PORT>
-        <PORT CLKFREQUENCY="299970032" DIR="I" NAME="ap_clk" SIGIS="clk" SIGNAME="zynq_ultra_ps_e_0_pl_clk0">
+        <PORT CLKFREQUENCY="187500000" DIR="I" NAME="ap_clk" SIGIS="clk" SIGNAME="zynq_ultra_ps_e_0_pl_clk0">
           <CONNECTIONS>
             <CONNECTION INSTANCE="zynq_ultra_ps_e_0" PORT="pl_clk0"/>
           </CONNECTIONS>
@@ -10811,7 +10811,7 @@
           <PARAMETER NAME="DATA_WIDTH" VALUE="32"/>
           <PARAMETER NAME="PROTOCOL" VALUE="AXI4LITE"/>
           <PARAMETER NAME="READ_WRITE_MODE" VALUE="READ_WRITE"/>
-          <PARAMETER NAME="FREQ_HZ" VALUE="299970032"/>
+          <PARAMETER NAME="FREQ_HZ" VALUE="187500000"/>
           <PARAMETER NAME="ID_WIDTH" VALUE="0"/>
           <PARAMETER NAME="AWUSER_WIDTH" VALUE="0"/>
           <PARAMETER NAME="ARUSER_WIDTH" VALUE="0"/>
@@ -10868,7 +10868,7 @@
           <PARAMETER NAME="HAS_TSTRB" VALUE="0"/>
           <PARAMETER NAME="HAS_TKEEP" VALUE="0"/>
           <PARAMETER NAME="HAS_TLAST" VALUE="1"/>
-          <PARAMETER NAME="FREQ_HZ" VALUE="299970032"/>
+          <PARAMETER NAME="FREQ_HZ" VALUE="187500000"/>
           <PARAMETER NAME="PHASE" VALUE="0.000"/>
           <PARAMETER NAME="CLK_DOMAIN" VALUE="design_1_zynq_ultra_ps_e_0_1_pl_clk0"/>
           <PARAMETER NAME="INSERT_VIP" VALUE="0"/>
@@ -10889,7 +10889,7 @@
           <PARAMETER NAME="HAS_TSTRB" VALUE="0"/>
           <PARAMETER NAME="HAS_TKEEP" VALUE="0"/>
           <PARAMETER NAME="HAS_TLAST" VALUE="1"/>
-          <PARAMETER NAME="FREQ_HZ" VALUE="299970032"/>
+          <PARAMETER NAME="FREQ_HZ" VALUE="187500000"/>
           <PARAMETER NAME="PHASE" VALUE="0.000"/>
           <PARAMETER NAME="CLK_DOMAIN" VALUE="design_1_zynq_ultra_ps_e_0_1_pl_clk0"/>
           <PARAMETER NAME="INSERT_VIP" VALUE="0"/>
@@ -10910,7 +10910,7 @@
           <PARAMETER NAME="HAS_TSTRB" VALUE="0"/>
           <PARAMETER NAME="HAS_TKEEP" VALUE="0"/>
           <PARAMETER NAME="HAS_TLAST" VALUE="1"/>
-          <PARAMETER NAME="FREQ_HZ" VALUE="299970032"/>
+          <PARAMETER NAME="FREQ_HZ" VALUE="187500000"/>
           <PARAMETER NAME="PHASE" VALUE="0.000"/>
           <PARAMETER NAME="CLK_DOMAIN" VALUE="design_1_zynq_ultra_ps_e_0_1_pl_clk0"/>
           <PARAMETER NAME="INSERT_VIP" VALUE="0"/>
@@ -10931,7 +10931,7 @@
           <PARAMETER NAME="HAS_TSTRB" VALUE="0"/>
           <PARAMETER NAME="HAS_TKEEP" VALUE="0"/>
           <PARAMETER NAME="HAS_TLAST" VALUE="1"/>
-          <PARAMETER NAME="FREQ_HZ" VALUE="299970032"/>
+          <PARAMETER NAME="FREQ_HZ" VALUE="187500000"/>
           <PARAMETER NAME="PHASE" VALUE="0.000"/>
           <PARAMETER NAME="CLK_DOMAIN" VALUE="design_1_zynq_ultra_ps_e_0_1_pl_clk0"/>
           <PARAMETER NAME="INSERT_VIP" VALUE="0"/>
@@ -10989,7 +10989,7 @@
         <PARAMETER NAME="PSU_VALUE_SILVERSION" VALUE="3"/>
         <PARAMETER NAME="PSU__USE__DDR_INTF_REQUESTED" VALUE="0"/>
         <PARAMETER NAME="PSU__EN_AXI_STATUS_PORTS" VALUE="0"/>
-        <PARAMETER NAME="PSU__PSS_REF_CLK__FREQMHZ" VALUE="33.330"/>
+        <PARAMETER NAME="PSU__PSS_REF_CLK__FREQMHZ" VALUE="50"/>
         <PARAMETER NAME="PSU__PSS_ALT_REF_CLK__FREQMHZ" VALUE="33.333"/>
         <PARAMETER NAME="PSU__VIDEO_REF_CLK__FREQMHZ" VALUE="33.333"/>
         <PARAMETER NAME="PSU__AUX_REF_CLK__FREQMHZ" VALUE="33.333"/>
@@ -11010,7 +11010,7 @@
         <PARAMETER NAME="PSU__DPAUX__PERIPHERAL__ENABLE" VALUE="1"/>
         <PARAMETER NAME="PSU__DPAUX__PERIPHERAL__IO" VALUE="MIO 27 .. 30"/>
         <PARAMETER NAME="PSU__ENET0__GRP_MDIO__ENABLE" VALUE="0"/>
-        <PARAMETER NAME="PSU__ACT_DDR_FREQ_MHZ" VALUE="1066.560059"/>
+        <PARAMETER NAME="PSU__ACT_DDR_FREQ_MHZ" VALUE="1050.000000"/>
         <PARAMETER NAME="PSU__ENET0__GRP_MDIO__IO" VALUE="&lt;Select>"/>
         <PARAMETER NAME="PSU__GEM__TSU__ENABLE" VALUE="0"/>
         <PARAMETER NAME="PSU__GEM__TSU__IO" VALUE="&lt;Select>"/>
@@ -12083,9 +12083,9 @@
         <PARAMETER NAME="PSU__CRF_APB__VPLL_CTRL__DIV2" VALUE="1"/>
         <PARAMETER NAME="PSU__CRL_APB__IOPLL_CTRL__DIV2" VALUE="1"/>
         <PARAMETER NAME="PSU__CRL_APB__RPLL_CTRL__DIV2" VALUE="1"/>
-        <PARAMETER NAME="PSU__CRF_APB__APLL_CTRL__FBDIV" VALUE="72"/>
-        <PARAMETER NAME="PSU__CRF_APB__DPLL_CTRL__FBDIV" VALUE="64"/>
-        <PARAMETER NAME="PSU__CRF_APB__VPLL_CTRL__FBDIV" VALUE="90"/>
+        <PARAMETER NAME="PSU__CRF_APB__APLL_CTRL__FBDIV" VALUE="48"/>
+        <PARAMETER NAME="PSU__CRF_APB__DPLL_CTRL__FBDIV" VALUE="42"/>
+        <PARAMETER NAME="PSU__CRF_APB__VPLL_CTRL__FBDIV" VALUE="60"/>
         <PARAMETER NAME="PSU__CRF_APB__APLL_TO_LPD_CTRL__DIVISOR0" VALUE="3"/>
         <PARAMETER NAME="PSU__CRF_APB__DPLL_TO_LPD_CTRL__DIVISOR0" VALUE="2"/>
         <PARAMETER NAME="PSU__CRF_APB__VPLL_TO_LPD_CTRL__DIVISOR0" VALUE="3"/>
@@ -12125,7 +12125,7 @@
         <PARAMETER NAME="PSU__SATA__LANE1__ENABLE" VALUE="1"/>
         <PARAMETER NAME="PSU__SATA__LANE1__IO" VALUE="GT Lane3"/>
         <PARAMETER NAME="PSU__CRF_APB__PCIE_REF_CTRL__DIVISOR0" VALUE="2"/>
-        <PARAMETER NAME="PSU__CRL_APB__PL0_REF_CTRL__DIVISOR0" VALUE="5"/>
+        <PARAMETER NAME="PSU__CRL_APB__PL0_REF_CTRL__DIVISOR0" VALUE="8"/>
         <PARAMETER NAME="PSU__CRL_APB__PL1_REF_CTRL__DIVISOR0" VALUE="4"/>
         <PARAMETER NAME="PSU__CRL_APB__PL2_REF_CTRL__DIVISOR0" VALUE="4"/>
         <PARAMETER NAME="PSU__CRL_APB__PL3_REF_CTRL__DIVISOR0" VALUE="4"/>
@@ -12150,10 +12150,10 @@
         <PARAMETER NAME="PSU__CRF_APB__GTGREF0_REF_CTRL__DIVISOR0" VALUE="-1"/>
         <PARAMETER NAME="PSU__CRF_APB__GTGREF0__ENABLE" VALUE="NA"/>
         <PARAMETER NAME="PSU__CRF_APB__DBG_TSTMP_CTRL__DIVISOR0" VALUE="2"/>
-        <PARAMETER NAME="PSU__CRL_APB__IOPLL_CTRL__FBDIV" VALUE="90"/>
+        <PARAMETER NAME="PSU__CRL_APB__IOPLL_CTRL__FBDIV" VALUE="60"/>
         <PARAMETER NAME="PSU__CRL_APB__RPLL_CTRL__FBDIV" VALUE="45"/>
         <PARAMETER NAME="PSU__CRL_APB__IOPLL_TO_FPD_CTRL__DIVISOR0" VALUE="3"/>
-        <PARAMETER NAME="PSU__CRL_APB__RPLL_TO_FPD_CTRL__DIVISOR0" VALUE="2"/>
+        <PARAMETER NAME="PSU__CRL_APB__RPLL_TO_FPD_CTRL__DIVISOR0" VALUE="3"/>
         <PARAMETER NAME="PSU__CRL_APB__GEM0_REF_CTRL__DIVISOR0" VALUE="12"/>
         <PARAMETER NAME="PSU__CRL_APB__GEM1_REF_CTRL__DIVISOR0" VALUE="12"/>
         <PARAMETER NAME="PSU__CRL_APB__GEM2_REF_CTRL__DIVISOR0" VALUE="12"/>
@@ -12297,71 +12297,71 @@
         <PARAMETER NAME="PSU__IOU_SLCR__TTC1__ACT_FREQMHZ" VALUE="100.000000"/>
         <PARAMETER NAME="PSU__IOU_SLCR__TTC2__ACT_FREQMHZ" VALUE="100.000000"/>
         <PARAMETER NAME="PSU__IOU_SLCR__TTC3__ACT_FREQMHZ" VALUE="100.000000"/>
-        <PARAMETER NAME="PSU__IOU_SLCR__WDT0__ACT_FREQMHZ" VALUE="99.990005"/>
-        <PARAMETER NAME="PSU__FPD_SLCR__WDT1__ACT_FREQMHZ" VALUE="99.990005"/>
+        <PARAMETER NAME="PSU__IOU_SLCR__WDT0__ACT_FREQMHZ" VALUE="100.000000"/>
+        <PARAMETER NAME="PSU__FPD_SLCR__WDT1__ACT_FREQMHZ" VALUE="100.000000"/>
         <PARAMETER NAME="PSU__LPD_SLCR__CSUPMU__ACT_FREQMHZ" VALUE="100.000000"/>
-        <PARAMETER NAME="PSU__CRF_APB__ACPU_CTRL__ACT_FREQMHZ" VALUE="1199.880127"/>
+        <PARAMETER NAME="PSU__CRF_APB__ACPU_CTRL__ACT_FREQMHZ" VALUE="1200.000000"/>
         <PARAMETER NAME="PSU__CRF_APB__DBG_TRACE_CTRL__ACT_FREQMHZ" VALUE="250"/>
-        <PARAMETER NAME="PSU__CRF_APB__DBG_FPD_CTRL__ACT_FREQMHZ" VALUE="249.975021"/>
+        <PARAMETER NAME="PSU__CRF_APB__DBG_FPD_CTRL__ACT_FREQMHZ" VALUE="250.000000"/>
         <PARAMETER NAME="PSU__CRF_APB__APM_CTRL__ACT_FREQMHZ" VALUE="1"/>
-        <PARAMETER NAME="PSU__CRF_APB__DP_VIDEO_REF_CTRL__ACT_FREQMHZ" VALUE="299.970032"/>
-        <PARAMETER NAME="PSU__CRF_APB__DP_AUDIO_REF_CTRL__ACT_FREQMHZ" VALUE="24.997501"/>
-        <PARAMETER NAME="PSU__CRF_APB__DP_STC_REF_CTRL__ACT_FREQMHZ" VALUE="26.783037"/>
-        <PARAMETER NAME="PSU__CRF_APB__DDR_CTRL__ACT_FREQMHZ" VALUE="533.280029"/>
+        <PARAMETER NAME="PSU__CRF_APB__DP_VIDEO_REF_CTRL__ACT_FREQMHZ" VALUE="300.000000"/>
+        <PARAMETER NAME="PSU__CRF_APB__DP_AUDIO_REF_CTRL__ACT_FREQMHZ" VALUE="25.000000"/>
+        <PARAMETER NAME="PSU__CRF_APB__DP_STC_REF_CTRL__ACT_FREQMHZ" VALUE="26.785715"/>
+        <PARAMETER NAME="PSU__CRF_APB__DDR_CTRL__ACT_FREQMHZ" VALUE="525.000000"/>
         <PARAMETER NAME="PSU__DDR__INTERFACE__FREQMHZ" VALUE="533.500"/>
-        <PARAMETER NAME="PSU__CRF_APB__GPU_REF_CTRL__ACT_FREQMHZ" VALUE="499.950043"/>
+        <PARAMETER NAME="PSU__CRF_APB__GPU_REF_CTRL__ACT_FREQMHZ" VALUE="500.000000"/>
         <PARAMETER NAME="PSU__CRF_APB__AFI0_REF_CTRL__ACT_FREQMHZ" VALUE="667"/>
         <PARAMETER NAME="PSU__CRF_APB__AFI1_REF_CTRL__ACT_FREQMHZ" VALUE="667"/>
         <PARAMETER NAME="PSU__CRF_APB__AFI2_REF_CTRL__ACT_FREQMHZ" VALUE="667"/>
         <PARAMETER NAME="PSU__CRF_APB__AFI3_REF_CTRL__ACT_FREQMHZ" VALUE="667"/>
         <PARAMETER NAME="PSU__CRF_APB__AFI4_REF_CTRL__ACT_FREQMHZ" VALUE="667"/>
         <PARAMETER NAME="PSU__CRF_APB__AFI5_REF_CTRL__ACT_FREQMHZ" VALUE="667"/>
-        <PARAMETER NAME="PSU__CRF_APB__SATA_REF_CTRL__ACT_FREQMHZ" VALUE="249.975021"/>
-        <PARAMETER NAME="PSU__CRF_APB__PCIE_REF_CTRL__ACT_FREQMHZ" VALUE="249.975021"/>
-        <PARAMETER NAME="PSU__CRL_APB__PL0_REF_CTRL__ACT_FREQMHZ" VALUE="299.970032"/>
+        <PARAMETER NAME="PSU__CRF_APB__SATA_REF_CTRL__ACT_FREQMHZ" VALUE="250.000000"/>
+        <PARAMETER NAME="PSU__CRF_APB__PCIE_REF_CTRL__ACT_FREQMHZ" VALUE="250.000000"/>
+        <PARAMETER NAME="PSU__CRL_APB__PL0_REF_CTRL__ACT_FREQMHZ" VALUE="187.500000"/>
         <PARAMETER NAME="PSU__CRL_APB__PL1_REF_CTRL__ACT_FREQMHZ" VALUE="100"/>
         <PARAMETER NAME="PSU__CRL_APB__PL2_REF_CTRL__ACT_FREQMHZ" VALUE="100"/>
         <PARAMETER NAME="PSU__CRL_APB__PL3_REF_CTRL__ACT_FREQMHZ" VALUE="100"/>
-        <PARAMETER NAME="PSU__CRF_APB__GDMA_REF_CTRL__ACT_FREQMHZ" VALUE="599.940063"/>
-        <PARAMETER NAME="PSU__CRF_APB__DPDMA_REF_CTRL__ACT_FREQMHZ" VALUE="599.940063"/>
-        <PARAMETER NAME="PSU__CRF_APB__TOPSW_MAIN_CTRL__ACT_FREQMHZ" VALUE="533.280029"/>
-        <PARAMETER NAME="PSU__CRF_APB__TOPSW_LSBUS_CTRL__ACT_FREQMHZ" VALUE="99.990005"/>
+        <PARAMETER NAME="PSU__CRF_APB__GDMA_REF_CTRL__ACT_FREQMHZ" VALUE="600.000000"/>
+        <PARAMETER NAME="PSU__CRF_APB__DPDMA_REF_CTRL__ACT_FREQMHZ" VALUE="600.000000"/>
+        <PARAMETER NAME="PSU__CRF_APB__TOPSW_MAIN_CTRL__ACT_FREQMHZ" VALUE="525.000000"/>
+        <PARAMETER NAME="PSU__CRF_APB__TOPSW_LSBUS_CTRL__ACT_FREQMHZ" VALUE="100.000000"/>
         <PARAMETER NAME="PSU__CRF_APB__GTGREF0_REF_CTRL__ACT_FREQMHZ" VALUE="-1"/>
-        <PARAMETER NAME="PSU__CRF_APB__DBG_TSTMP_CTRL__ACT_FREQMHZ" VALUE="249.975021"/>
+        <PARAMETER NAME="PSU__CRF_APB__DBG_TSTMP_CTRL__ACT_FREQMHZ" VALUE="250.000000"/>
         <PARAMETER NAME="PSU__CRL_APB__GEM0_REF_CTRL__ACT_FREQMHZ" VALUE="125"/>
         <PARAMETER NAME="PSU__CRL_APB__GEM1_REF_CTRL__ACT_FREQMHZ" VALUE="125"/>
         <PARAMETER NAME="PSU__CRL_APB__GEM2_REF_CTRL__ACT_FREQMHZ" VALUE="125"/>
-        <PARAMETER NAME="PSU__CRL_APB__GEM3_REF_CTRL__ACT_FREQMHZ" VALUE="124.987511"/>
-        <PARAMETER NAME="PSU__CRL_APB__GEM_TSU_REF_CTRL__ACT_FREQMHZ" VALUE="249.975021"/>
-        <PARAMETER NAME="PSU__CRL_APB__USB0_BUS_REF_CTRL__ACT_FREQMHZ" VALUE="249.975021"/>
+        <PARAMETER NAME="PSU__CRL_APB__GEM3_REF_CTRL__ACT_FREQMHZ" VALUE="125.000000"/>
+        <PARAMETER NAME="PSU__CRL_APB__GEM_TSU_REF_CTRL__ACT_FREQMHZ" VALUE="250.000000"/>
+        <PARAMETER NAME="PSU__CRL_APB__USB0_BUS_REF_CTRL__ACT_FREQMHZ" VALUE="250.000000"/>
         <PARAMETER NAME="PSU__CRL_APB__USB1_BUS_REF_CTRL__ACT_FREQMHZ" VALUE="250"/>
-        <PARAMETER NAME="PSU__CRL_APB__QSPI_REF_CTRL__ACT_FREQMHZ" VALUE="124.987511"/>
+        <PARAMETER NAME="PSU__CRL_APB__QSPI_REF_CTRL__ACT_FREQMHZ" VALUE="125.000000"/>
         <PARAMETER NAME="PSU__CRL_APB__SDIO0_REF_CTRL__ACT_FREQMHZ" VALUE="200"/>
-        <PARAMETER NAME="PSU__CRL_APB__SDIO1_REF_CTRL__ACT_FREQMHZ" VALUE="187.481262"/>
-        <PARAMETER NAME="PSU__CRL_APB__UART0_REF_CTRL__ACT_FREQMHZ" VALUE="99.990005"/>
-        <PARAMETER NAME="PSU__CRL_APB__UART1_REF_CTRL__ACT_FREQMHZ" VALUE="99.990005"/>
-        <PARAMETER NAME="PSU__CRL_APB__I2C0_REF_CTRL__ACT_FREQMHZ" VALUE="99.990005"/>
-        <PARAMETER NAME="PSU__CRL_APB__I2C1_REF_CTRL__ACT_FREQMHZ" VALUE="99.990005"/>
+        <PARAMETER NAME="PSU__CRL_APB__SDIO1_REF_CTRL__ACT_FREQMHZ" VALUE="187.500000"/>
+        <PARAMETER NAME="PSU__CRL_APB__UART0_REF_CTRL__ACT_FREQMHZ" VALUE="100.000000"/>
+        <PARAMETER NAME="PSU__CRL_APB__UART1_REF_CTRL__ACT_FREQMHZ" VALUE="100.000000"/>
+        <PARAMETER NAME="PSU__CRL_APB__I2C0_REF_CTRL__ACT_FREQMHZ" VALUE="100.000000"/>
+        <PARAMETER NAME="PSU__CRL_APB__I2C1_REF_CTRL__ACT_FREQMHZ" VALUE="100.000000"/>
         <PARAMETER NAME="PSU__CRL_APB__SPI0_REF_CTRL__ACT_FREQMHZ" VALUE="214"/>
         <PARAMETER NAME="PSU__CRL_APB__SPI1_REF_CTRL__ACT_FREQMHZ" VALUE="214"/>
         <PARAMETER NAME="PSU__CRL_APB__CAN0_REF_CTRL__ACT_FREQMHZ" VALUE="100"/>
-        <PARAMETER NAME="PSU__CRL_APB__CAN1_REF_CTRL__ACT_FREQMHZ" VALUE="99.990005"/>
+        <PARAMETER NAME="PSU__CRL_APB__CAN1_REF_CTRL__ACT_FREQMHZ" VALUE="100.000000"/>
         <PARAMETER NAME="PSU__CRL_APB__DEBUG_R5_ATCLK_CTRL__ACT_FREQMHZ" VALUE="1000"/>
-        <PARAMETER NAME="PSU__CRL_APB__CPU_R5_CTRL__ACT_FREQMHZ" VALUE="499.950043"/>
+        <PARAMETER NAME="PSU__CRL_APB__CPU_R5_CTRL__ACT_FREQMHZ" VALUE="500.000000"/>
         <PARAMETER NAME="PSU__CRL_APB__OCM_MAIN_CTRL__ACT_FREQMHZ" VALUE="500"/>
-        <PARAMETER NAME="PSU__CRL_APB__IOU_SWITCH_CTRL__ACT_FREQMHZ" VALUE="249.975021"/>
+        <PARAMETER NAME="PSU__CRL_APB__IOU_SWITCH_CTRL__ACT_FREQMHZ" VALUE="250.000000"/>
         <PARAMETER NAME="PSU__CRL_APB__CSU_PLL_CTRL__ACT_FREQMHZ" VALUE="180"/>
-        <PARAMETER NAME="PSU__CRL_APB__PCAP_CTRL__ACT_FREQMHZ" VALUE="187.481262"/>
-        <PARAMETER NAME="PSU__CRL_APB__LPD_LSBUS_CTRL__ACT_FREQMHZ" VALUE="99.990005"/>
-        <PARAMETER NAME="PSU__CRL_APB__LPD_SWITCH_CTRL__ACT_FREQMHZ" VALUE="499.950043"/>
-        <PARAMETER NAME="PSU__CRL_APB__DBG_LPD_CTRL__ACT_FREQMHZ" VALUE="249.975021"/>
+        <PARAMETER NAME="PSU__CRL_APB__PCAP_CTRL__ACT_FREQMHZ" VALUE="187.500000"/>
+        <PARAMETER NAME="PSU__CRL_APB__LPD_LSBUS_CTRL__ACT_FREQMHZ" VALUE="100.000000"/>
+        <PARAMETER NAME="PSU__CRL_APB__LPD_SWITCH_CTRL__ACT_FREQMHZ" VALUE="500.000000"/>
+        <PARAMETER NAME="PSU__CRL_APB__DBG_LPD_CTRL__ACT_FREQMHZ" VALUE="250.000000"/>
         <PARAMETER NAME="PSU__CRL_APB__NAND_REF_CTRL__ACT_FREQMHZ" VALUE="100"/>
-        <PARAMETER NAME="PSU__CRL_APB__ADMA_REF_CTRL__ACT_FREQMHZ" VALUE="499.950043"/>
-        <PARAMETER NAME="PSU__CRL_APB__DLL_REF_CTRL__ACT_FREQMHZ" VALUE="1499.850098"/>
-        <PARAMETER NAME="PSU__CRL_APB__AMS_REF_CTRL__ACT_FREQMHZ" VALUE="49.995003"/>
-        <PARAMETER NAME="PSU__CRL_APB__TIMESTAMP_REF_CTRL__ACT_FREQMHZ" VALUE="99.990005"/>
+        <PARAMETER NAME="PSU__CRL_APB__ADMA_REF_CTRL__ACT_FREQMHZ" VALUE="500.000000"/>
+        <PARAMETER NAME="PSU__CRL_APB__DLL_REF_CTRL__ACT_FREQMHZ" VALUE="1500.000000"/>
+        <PARAMETER NAME="PSU__CRL_APB__AMS_REF_CTRL__ACT_FREQMHZ" VALUE="50.000000"/>
+        <PARAMETER NAME="PSU__CRL_APB__TIMESTAMP_REF_CTRL__ACT_FREQMHZ" VALUE="100.000000"/>
         <PARAMETER NAME="PSU__CRL_APB__AFI6_REF_CTRL__ACT_FREQMHZ" VALUE="500"/>
-        <PARAMETER NAME="PSU__CRL_APB__USB3_DUAL_REF_CTRL__ACT_FREQMHZ" VALUE="19.998001"/>
+        <PARAMETER NAME="PSU__CRL_APB__USB3_DUAL_REF_CTRL__ACT_FREQMHZ" VALUE="20.000000"/>
         <PARAMETER NAME="PSU__CRF_APB__ACPU_CTRL__FREQMHZ" VALUE="1200"/>
         <PARAMETER NAME="PSU__CRF_APB__DBG_TRACE_CTRL__FREQMHZ" VALUE="250"/>
         <PARAMETER NAME="PSU__CRF_APB__DBG_FPD_CTRL__FREQMHZ" VALUE="250"/>
@@ -12379,7 +12379,7 @@
         <PARAMETER NAME="PSU__CRF_APB__AFI5_REF_CTRL__FREQMHZ" VALUE="667"/>
         <PARAMETER NAME="PSU__CRF_APB__SATA_REF_CTRL__FREQMHZ" VALUE="250"/>
         <PARAMETER NAME="PSU__CRF_APB__PCIE_REF_CTRL__FREQMHZ" VALUE="250"/>
-        <PARAMETER NAME="PSU__CRL_APB__PL0_REF_CTRL__FREQMHZ" VALUE="300"/>
+        <PARAMETER NAME="PSU__CRL_APB__PL0_REF_CTRL__FREQMHZ" VALUE="200"/>
         <PARAMETER NAME="PSU__CRL_APB__PL1_REF_CTRL__FREQMHZ" VALUE="100"/>
         <PARAMETER NAME="PSU__CRL_APB__PL2_REF_CTRL__FREQMHZ" VALUE="100"/>
         <PARAMETER NAME="PSU__CRL_APB__PL3_REF_CTRL__FREQMHZ" VALUE="100"/>
@@ -12427,8 +12427,8 @@
         <PARAMETER NAME="PSU__IOU_SLCR__TTC1__FREQMHZ" VALUE="100.000000"/>
         <PARAMETER NAME="PSU__IOU_SLCR__TTC2__FREQMHZ" VALUE="100.000000"/>
         <PARAMETER NAME="PSU__IOU_SLCR__TTC3__FREQMHZ" VALUE="100.000000"/>
-        <PARAMETER NAME="PSU__IOU_SLCR__WDT0__FREQMHZ" VALUE="99.990005"/>
-        <PARAMETER NAME="PSU__FPD_SLCR__WDT1__FREQMHZ" VALUE="99.990005"/>
+        <PARAMETER NAME="PSU__IOU_SLCR__WDT0__FREQMHZ" VALUE="100.000000"/>
+        <PARAMETER NAME="PSU__FPD_SLCR__WDT1__FREQMHZ" VALUE="100.000000"/>
         <PARAMETER NAME="PSU__LPD_SLCR__CSUPMU__FREQMHZ" VALUE="100.000000"/>
         <PARAMETER NAME="PSU__CSU__CSU_TAMPER_0__ENABLE" VALUE="0"/>
         <PARAMETER NAME="PSU__CSU__CSU_TAMPER_1__ENABLE" VALUE="0"/>
@@ -12652,12 +12652,12 @@
         <PARAMETER NAME="PSU__AFI1_COHERENCY" VALUE="0"/>
         <PARAMETER NAME="PSU__FPDMASTERS_COHERENCY" VALUE="0"/>
         <PARAMETER NAME="PSU__ENABLE__DDR__REFRESH__SIGNALS" VALUE="0"/>
-        <PARAMETER NAME="PSU__M_AXI_GP0__FREQMHZ" VALUE="299.970032"/>
-        <PARAMETER NAME="PSU__M_AXI_GP1__FREQMHZ" VALUE="299.970032"/>
+        <PARAMETER NAME="PSU__M_AXI_GP0__FREQMHZ" VALUE="187.5"/>
+        <PARAMETER NAME="PSU__M_AXI_GP1__FREQMHZ" VALUE="187.5"/>
         <PARAMETER NAME="PSU__M_AXI_GP2__FREQMHZ" VALUE="10"/>
         <PARAMETER NAME="PSU__S_AXI_GP0__FREQMHZ" VALUE="10"/>
         <PARAMETER NAME="PSU__S_AXI_GP1__FREQMHZ" VALUE="10"/>
-        <PARAMETER NAME="PSU__S_AXI_GP2__FREQMHZ" VALUE="299.970032"/>
+        <PARAMETER NAME="PSU__S_AXI_GP2__FREQMHZ" VALUE="187.5"/>
         <PARAMETER NAME="PSU__S_AXI_GP3__FREQMHZ" VALUE="10"/>
         <PARAMETER NAME="PSU__S_AXI_GP4__FREQMHZ" VALUE="10"/>
         <PARAMETER NAME="PSU__S_AXI_GP5__FREQMHZ" VALUE="10"/>
@@ -12669,7 +12669,7 @@
         <PARAMETER NAME="C_HIGHADDR" VALUE="0xEFFFFFFF"/>
       </PARAMETERS>
       <PORTS>
-        <PORT CLKFREQUENCY="299970032" DIR="I" NAME="maxihpm0_fpd_aclk" SIGIS="clk" SIGNAME="zynq_ultra_ps_e_0_pl_clk0">
+        <PORT CLKFREQUENCY="187500000" DIR="I" NAME="maxihpm0_fpd_aclk" SIGIS="clk" SIGNAME="zynq_ultra_ps_e_0_pl_clk0">
           <CONNECTIONS>
             <CONNECTION INSTANCE="zynq_ultra_ps_e_0" PORT="pl_clk0"/>
           </CONNECTIONS>
@@ -12861,7 +12861,7 @@
             <CONNECTION INSTANCE="ps8_0_axi_periph" PORT="S00_AXI_arqos"/>
           </CONNECTIONS>
         </PORT>
-        <PORT CLKFREQUENCY="299970032" DIR="I" NAME="maxihpm1_fpd_aclk" SIGIS="clk" SIGNAME="zynq_ultra_ps_e_0_pl_clk0">
+        <PORT CLKFREQUENCY="187500000" DIR="I" NAME="maxihpm1_fpd_aclk" SIGIS="clk" SIGNAME="zynq_ultra_ps_e_0_pl_clk0">
           <CONNECTIONS>
             <CONNECTION INSTANCE="zynq_ultra_ps_e_0" PORT="pl_clk0"/>
           </CONNECTIONS>
@@ -13053,7 +13053,7 @@
             <CONNECTION INSTANCE="ps8_0_axi_periph" PORT="S01_AXI_arqos"/>
           </CONNECTIONS>
         </PORT>
-        <PORT CLKFREQUENCY="299970032" DIR="I" NAME="saxihp0_fpd_aclk" SIGIS="clk" SIGNAME="zynq_ultra_ps_e_0_pl_clk0">
+        <PORT CLKFREQUENCY="187500000" DIR="I" NAME="saxihp0_fpd_aclk" SIGIS="clk" SIGNAME="zynq_ultra_ps_e_0_pl_clk0">
           <CONNECTIONS>
             <CONNECTION INSTANCE="zynq_ultra_ps_e_0" PORT="pl_clk0"/>
           </CONNECTIONS>
@@ -13235,7 +13235,7 @@
             <CONNECTION INSTANCE="rst_ps8_0_99M" PORT="ext_reset_in"/>
           </CONNECTIONS>
         </PORT>
-        <PORT CLKFREQUENCY="299970032" DIR="O" NAME="pl_clk0" SIGIS="clk" SIGNAME="zynq_ultra_ps_e_0_pl_clk0">
+        <PORT CLKFREQUENCY="187500000" DIR="O" NAME="pl_clk0" SIGIS="clk" SIGNAME="zynq_ultra_ps_e_0_pl_clk0">
           <CONNECTIONS>
             <CONNECTION INSTANCE="activations" PORT="m_axi_mm2s_aclk"/>
             <CONNECTION INSTANCE="axi_smc" PORT="aclk"/>
@@ -13298,7 +13298,7 @@
           <PARAMETER NAME="NUM_READ_OUTSTANDING" VALUE="8"/>
           <PARAMETER NAME="DATA_WIDTH" VALUE="128"/>
           <PARAMETER NAME="PROTOCOL" VALUE="AXI4"/>
-          <PARAMETER NAME="FREQ_HZ" VALUE="299970032"/>
+          <PARAMETER NAME="FREQ_HZ" VALUE="187500000"/>
           <PARAMETER NAME="ID_WIDTH" VALUE="16"/>
           <PARAMETER NAME="ADDR_WIDTH" VALUE="40"/>
           <PARAMETER NAME="AWUSER_WIDTH" VALUE="16"/>
@@ -13372,7 +13372,7 @@
           <PARAMETER NAME="NUM_READ_OUTSTANDING" VALUE="8"/>
           <PARAMETER NAME="DATA_WIDTH" VALUE="128"/>
           <PARAMETER NAME="PROTOCOL" VALUE="AXI4"/>
-          <PARAMETER NAME="FREQ_HZ" VALUE="299970032"/>
+          <PARAMETER NAME="FREQ_HZ" VALUE="187500000"/>
           <PARAMETER NAME="ID_WIDTH" VALUE="16"/>
           <PARAMETER NAME="ADDR_WIDTH" VALUE="40"/>
           <PARAMETER NAME="AWUSER_WIDTH" VALUE="16"/>
@@ -13446,7 +13446,7 @@
           <PARAMETER NAME="NUM_READ_OUTSTANDING" VALUE="16"/>
           <PARAMETER NAME="DATA_WIDTH" VALUE="128"/>
           <PARAMETER NAME="PROTOCOL" VALUE="AXI4"/>
-          <PARAMETER NAME="FREQ_HZ" VALUE="299970032"/>
+          <PARAMETER NAME="FREQ_HZ" VALUE="187500000"/>
           <PARAMETER NAME="ID_WIDTH" VALUE="6"/>
           <PARAMETER NAME="ADDR_WIDTH" VALUE="49"/>
           <PARAMETER NAME="AWUSER_WIDTH" VALUE="1"/>
